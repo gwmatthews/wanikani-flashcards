@@ -13,11 +13,8 @@ if [ $# -lt 1 ]; then
 	  	exit 1 # error
 fi
 
-## takes one argument filename of csv file with or without .csv extension
+## takes one argument filename of csv file 
 FILENAME=$1
-
-## set default font size: can be changed with optional second parameter 30 is good for longer vocab, 55 is good for single kanji
-
 SET="${FILENAME%.[^.]*}" 
 
 ## get LaTeX wrappers from card-frame file
