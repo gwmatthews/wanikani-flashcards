@@ -18,6 +18,7 @@ A `\LaTeX` package and bash script for producing flashcard sets from .csv files 
   - hyperref
   - tcolorbox
   - etoolbox
+  - pdfpages
 - xelatex
 - standard Linux utilities such as sed, awk, grep
 - .csv files downloaded from Wanikani Item Insepector with the following settings
