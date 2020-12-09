@@ -1,4 +1,5 @@
 \documentclass[letterpaper]{article}
+\usepackage[top=1cm, bottom=1cm, left=3mm, right=3mm]{geometry}
 \usepackage{pdfpages}
 \begin{document}
 \include{pagelist.tex}
