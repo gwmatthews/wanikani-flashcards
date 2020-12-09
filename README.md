@@ -37,8 +37,8 @@ Radicals fail to render in many fonts, not to mention the fact that some idiosyn
 ## How to use
 
 - Copy .csv files to wanikani-flashcards directory and then run `make` which runs through each new csv file and generates a pdf sheet with 15 flashcards per page.
-- You can also run it for an individual .csv file with `./makecards.sh filename.csv`
-- For a4 paper change the line `\documentclass[letterpaper]{article}` to `\documentclass[a4paper]{article}` in each the files `templates/cards` and `templates/remix`. You may get more complaints about overfull boxes, but that shouldn't matter besides making things a little slower to build.
+- To compile cards from an individual .csv you can also run the script manually with `./makecards.sh filename.csv`
+- For a4 paper change the line `\documentclass[letterpaper]{article}` to `\documentclass[a4paper]{article}` in the files `templates/cards` and `templates/remix`. You may get complaints about overfull boxes if you do this, but that shouldn't matter besides making things a little slower to build.
 
 ## Bug reports and contributions
 
