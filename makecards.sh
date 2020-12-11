@@ -4,7 +4,7 @@
 
 function usage {
 
-echo "$0 <filename>" 
+echo "$0 <filename> (optional, for a4 paper size) a4" 
 
 }
 
@@ -13,9 +13,19 @@ if [ $# -lt 1 ]; then
 	  	exit 1 # error
 fi
 
-## takes one argument filename of csv file 
 FILENAME=$1
 SET="${FILENAME%.[^.]*}" 
+PAPER=${2:-letter}
+
+## set paper size
+
+if [ $PAPER = a4 ]; then
+ sed -i -e 's/letterpaper/a4paper/' templates/cards
+ sed -i -e 's/letterpaper/a4paper/' templates/remix
+else
+ sed -i -e 's/a4paper/letterpaper/' templates/cards
+ sed -i -e 's/a4paper/letterpaper/' templates/remix
+fi
 
 ## get LaTeX wrappers from card-frame file
 
@@ -58,7 +68,11 @@ NUM=0
 
 ## copy the template
 
-cp templates/remix $SET.tex                                                 
+if [ $PAPER = a4 ]; then
+    cp templates/remix $SET-a4.tex
+else
+    cp templates/remix $SET.tex
+fi                                               
 
 ## construct the pagelist array
 
@@ -84,7 +98,11 @@ echo $REORDERED > $OUTPUT
 
 ## compile reordered flashcard pages
 
-xelatex $SET                                                     
+if [ $PAPER = a4 ]; then
+    xelatex $SET-a4.tex
+else
+    xelatex $SET.tex
+fi                                                
 
 ## clean up the mess
 
@@ -93,4 +111,5 @@ rm ./*.log
 rm ./*.out
 rm *.tex
 rm *-cards.pdf
+
 
