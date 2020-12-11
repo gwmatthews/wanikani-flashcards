@@ -25,7 +25,7 @@ END=$(sed -n '9,11 p' < templates/card-frame)
 
 ## fill content into front of card: wrap comma separated fields in braces, add prefix, divide into sections, same for back
 
-FRONT=$(cat $SET.csv | sed -e 's_Unavailable_{radical_'| sed -e 's/["]/{/' -e 's/[",]./}{/' -e 's/[,"]./}{/' -e 's/"/}/' | sed -e 's/,vocabulary/{}/' | sed -e 's/,radical/{}/' | sed -e 's/,kanji/{k}/'| sed 's/{/\\flashFront{/' | sed -f templates/spacing.sed | sed '/3/ a\\\RLmulticolcolumns')
+FRONT=$(cat $SET.csv | sed -e 's_Unavailable_{radical_'| sed -e 's/["]/{/' -e 's/[",]./}{/' -e 's/[,"]./}{/' -e 's/"/}/' | sed -e 's/,vocabulary$/{}/' | sed -e 's/,radical$/{}/' | sed -e 's/,kanji$/{k}/'| sed 's/{/\\flashFront{/' | sed -f templates/spacing.sed | sed '/3/ a\\\RLmulticolcolumns')
 
 BACK=$(cat $SET.csv | sed -f templates/kana.sed | sed -e 's_Unavailable_{radical_'| sed -e 's/["]/{/' -e 's/[",]./}{/' -e 's/[,"]./}{/' -e 's/"/}/' | sed -e 's/,vocabulary/{}/' | sed -e 's/,radical/{}/' | sed -e 's/,kanji/{}/' | sed 's/{/\\flashBack{/' | sed -f templates/spacing.sed | sed '/3/ a\\\LRmulticolcolumns')
 
@@ -93,5 +93,4 @@ rm ./*.log
 rm ./*.out
 rm *.tex
 rm *-cards.pdf
-
 

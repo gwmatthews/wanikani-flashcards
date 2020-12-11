@@ -1,122 +1,107 @@
-﻿"とう",刀,"Sword",kanji
+﻿"いちだい",一代,"Lifetime",vocabulary
+"かよう",通う,"To Commute",vocabulary
+"まず",先ず,"First Of All",vocabulary
+"はっけん",発見,"Discovery",vocabulary
+"ささえる",支える,"To Support",vocabulary
+"きゅうめい",究明,"Investigation",vocabulary
 "しゅつ",出,"Exit",kanji
-"しょう",少,"Few",kanji
-"ぎゅう",牛,"Cow",kanji
-"はん",半,"Half",kanji
-"むぎ",麦,"Wheat",kanji
-"ち",知,"Know",kanji
-"けつ",欠,"Lack",kanji
-"ゆう",由,"Reason",kanji
-"みん",民,"Peoples",kanji
-"しつ",失,"Fault",kanji
-"ひつ",必,"Certain",kanji
-"きょう",教,"Teach",kanji
-"そう",相,"Mutual",kanji
-"しゅう",終,"End",kanji
-"うん",運,"Carry",kanji
-"ろ",路,"Road",kanji
-"よこ",横,"Side",kanji
-"しん",親,"Parent",kanji
-"はん",反,"Anti",kanji
-"りょう",料,"Fee",kanji
-"ひょう",標,"Signpost",kanji
-"さつ",殺,"Kill",kanji
-"ぜん",然,"Nature",kanji
-"せん",選,"Choose",kanji
-"かがみ",鏡,"Mirror",kanji
-"ぎ",疑,"Doubt",kanji
-"けん",験,"Test",kanji
 "たいした",大した,"Great",vocabulary
+"こうつう",交通,"Traffic",vocabulary
+"よう",用,"Task",vocabulary
+"わ",和,"Peace",kanji
+"けんぶつ",見物,"Sightseeing",vocabulary
+"おおきく",大きく,"In A Big Way",vocabulary
+"さきまわり",先回り,"Arriving Ahead",vocabulary
+"たすける",助ける,"To Help",vocabulary
+"ねんじゅう",年中,"Year Round",vocabulary
+"まもなく",間もなく,"Soon",vocabulary
+"はこぶ",運ぶ,"To Carry",vocabulary
+"まける",負ける,"To Lose",vocabulary
+"けつ",欠,"Lack",kanji
+"さとごころ",里心,"Homesick",vocabulary
+"ほか",他,"Other",vocabulary
+"たにん",他人,"Another Person",vocabulary
+"しゅっけつ",出血,"Bleeding",vocabulary
+"みみうち",耳打ち,"Whisper In Ear",vocabulary
+"しゅっぱつ",出発,"Departure",vocabulary
+"あたりまえ",当たり前,"Natural",vocabulary
+"しつ",失,"Fault",kanji
+"うつる",写る,"To Be Photographed",vocabulary
+"けっしん",決心,"Determination",vocabulary
+"はん",反,"Anti",kanji
+"うん",運,"Carry",kanji
+"けん",験,"Test",kanji
+"ばんにん",万人,"All People",vocabulary
+"うごく",動く,"To Move",vocabulary
+"しゅう",終,"End",kanji
+"じんせい",人生,"One's Life",vocabulary
+"いぜん",以前,"Previously",vocabulary
+"ひつ",必,"Certain",kanji
+"つける",点ける,"To Turn On",vocabulary
+"だいじ",大事,"Important",vocabulary
+"きょう",教,"Teach",kanji
+"みあたる",見当たる,"To Be Found",vocabulary
+"こころみる",試みる,"To Try",vocabulary
 "つち",土,"Soil",vocabulary
+"いがい",以外,"Other Than",vocabulary
+"ち",知,"Know",kanji
+"むぎ",麦,"Wheat",kanji
+"みん",民,"Peoples",kanji
+"たりる",足りる,"To Be Enough",vocabulary
+"どりょく",努力,"Great Effort",vocabulary
+"じっけん",実験,"Experiment",vocabulary
+"ぶしつ",部室,"Clubroom",vocabulary
+"そう",相,"Mutual",kanji
+"かるい",軽い,"Lightweight",vocabulary
+"なかま",仲間,"Companion",vocabulary
+"まわす",回す,"To Turn",vocabulary
+"はしりまわる",走り回る,"To Run Around",vocabulary
+"しかく",四角,"Square",vocabulary
+"ほんとう",本当,"Reality",vocabulary
+"きんじつ",近日,"Soon",vocabulary
+"しゅっしょ",出所,"Release From Prison",vocabulary
+"ねんじ",年次,"Annual",vocabulary
+"にんぎょう",人形,"Doll",vocabulary
+"しゅじん",主人,"Head Of Household",vocabulary
+"きょういく",教育,"Education",vocabulary
+"たいだん",対談,"Conversation",vocabulary
+"ためす",試す,"To Attempt",vocabulary
+"おもて",表,"Front",vocabulary
+"ほうこう",方向,"Direction",vocabulary
+"とう",刀,"Sword",kanji
+"ひつじ",羊,"Sheep",vocabulary
+"かぞえる",数える,"To Count",vocabulary
+"みょうじ",名字,"Surname",vocabulary
+"ゆう",由,"Reason",kanji
+"すべて",全て,"All",vocabulary
+"さんすう",算数,"Arithmetic",vocabulary
+"しょほ",初歩,"Basics",vocabulary
+"まじる",交じる,"To Be Mixed",vocabulary
+"おくじょう",屋上,"Rooftop",vocabulary
+"かっき",活気,"Energy",vocabulary
+"くるしむ",苦しむ,"To Suffer",vocabulary
+"どうぐ",道具,"Tool",vocabulary
+"むく",向く,"To Face",vocabulary
+"どうじ",同時,"Same Time",vocabulary
+"いっしょう",一生,"Whole Life",vocabulary
+"ぶ",〜部,"Department",vocabulary
+"ほじする",保持する,"To Maintain",vocabulary
+"よこ",横,"Side",kanji
+"ぼく",僕,"I",kanji
+"ころぶ",転ぶ,"To Fall Over",vocabulary
+"あつまる",集まる,"To Come Together",vocabulary
+"こうどう",行動,"Action",vocabulary
+"あつまり",集まり,"Gathering",vocabulary
+"かえす",返す,"To Return",vocabulary
+"そく",息,"Breath",kanji
+"さむ",寒,"Cold",kanji
+"ろ",路,"Road",kanji
+"しん",親,"Parent",kanji
+"あたま",頭,"Head",kanji
+"にじゅう",二重,"Double",vocabulary
+"はん",半,"Half",kanji
 "みぎて",右手,"Right Hand",vocabulary
-"びーだま",ビー玉,"Marble",vocabulary
 "うむ",生む,"To Give Birth",vocabulary
 "ふとい",太い,"Fat",vocabulary
 "け",毛,"Fur",vocabulary
-"まず",先ず,"First Of All",vocabulary
-"みょうじ",名字,"Surname",vocabulary
-"ねんじゅう",年中,"Year Round",vocabulary
-"みみうち",耳打ち,"Whisper In Ear",vocabulary
-"たりる",足りる,"To Be Enough",vocabulary
-"しゅじん",主人,"Head Of Household",vocabulary
-"ほか",他,"Other",vocabulary
-"たにん",他人,"Another Person",vocabulary
-"いちだい",一代,"Lifetime",vocabulary
-"うつる",写る,"To Be Photographed",vocabulary
-"しかく",四角,"Square",vocabulary
-"きんじつ",近日,"Soon",vocabulary
-"ち",地,"Earth",vocabulary
-"すべて",全て,"All",vocabulary
-"ほうこう",方向,"Direction",vocabulary
-"ねんじ",年次,"Annual",vocabulary
-"ひつじ",羊,"Sheep",vocabulary
-"しゅっけつ",出血,"Bleeding",vocabulary
-"つける",付ける,"To Attach",vocabulary
-"いがい",以外,"Other Than",vocabulary
-"いぜん",以前,"Previously",vocabulary
-"どうじ",同時,"Same Time",vocabulary
-"こうつう",交通,"Traffic",vocabulary
-"たすける",助ける,"To Help",vocabulary
-"けっしん",決心,"Determination",vocabulary
-"きゅうめい",究明,"Investigation",vocabulary
-"しゅっしょ",出所,"Release From Prison",vocabulary
-"まもなく",間もなく,"Soon",vocabulary
-"かぞえる",数える,"To Count",vocabulary
-"だいじ",大事,"Important",vocabulary
-"どうぐ",道具,"Tool",vocabulary
-"かくど",角度,"Angle",vocabulary
-"まける",負ける,"To Lose",vocabulary
-"じゅうよう",重要,"Essential",vocabulary
-"たいじゅう",体重,"Body Weight",vocabulary
-"にじゅう",二重,"Double",vocabulary
-"かるい",軽い,"Lightweight",vocabulary
-"はこぶ",運ぶ,"To Carry",vocabulary
-"さんすう",算数,"Arithmetic",vocabulary
-"さいご",最後,"Last",vocabulary
-"なかま",仲間,"Companion",vocabulary
-"つたえる",伝える,"To Transmit",vocabulary
-"どりょく",努力,"Great Effort",vocabulary
-"ちゅうもん",注文,"Order",vocabulary
-"きょういく",教育,"Education",vocabulary
-"りそく",利息,"Interest",vocabulary
-"あくにん",悪人,"Bad Person",vocabulary
-"じんせい",人生,"One's Life",vocabulary
-"にんぎょう",人形,"Doll",vocabulary
-"さきまわり",先回り,"Arriving Ahead",vocabulary
-"まじる",交じる,"To Be Mixed",vocabulary
-"はしりまわる",走り回る,"To Run Around",vocabulary
-"まじわる",交わる,"To Intersect",vocabulary
-"まわす",回す,"To Turn",vocabulary
-"むく",向く,"To Face",vocabulary
-"くるしむ",苦しむ,"To Suffer",vocabulary
-"かえす",返す,"To Return",vocabulary
-"さとごころ",里心,"Homesick",vocabulary
-"こころみる",試みる,"To Try",vocabulary
-"ためす",試す,"To Attempt",vocabulary
-"じゅけん",受験,"Taking An Exam",vocabulary
-"じっけん",実験,"Experiment",vocabulary
-"しゅっぱつ",出発,"Departure",vocabulary
-"ほんとう",本当,"Reality",vocabulary
-"ばんにん",万人,"All People",vocabulary
-"たいだん",対談,"Conversation",vocabulary
-"ほじする",保持する,"To Maintain",vocabulary
-"かよう",通う,"To Commute",vocabulary
-"おおきく",大きく,"In A Big Way",vocabulary
-"ぶ",〜部,"Department",vocabulary
 "はつか",二十日,"Twentieth Day",vocabulary
-"ふじゆう",不自由,"Discomfort",vocabulary
-"おもて",表,"Front",vocabulary
-"さぎょう",作業,"Work",vocabulary
-"おくじょう",屋上,"Rooftop",vocabulary
-"いっしょう",一生,"Whole Life",vocabulary
-"あたりまえ",当たり前,"Natural",vocabulary
-"あらかじめ",予め,"Beforehand",vocabulary
-"よう",用,"Task",vocabulary
-"かっき",活気,"Energy",vocabulary
-"みあたる",見当たる,"To Be Found",vocabulary
-"つける",点ける,"To Turn On",vocabulary
-"しょほ",初歩,"Basics",vocabulary
-"あらた",新た,"New",vocabulary
-"みごと",見事,"Splendid",vocabulary
-"ぶしつ",部室,"Clubroom",vocabulary
-"みなと",港,"Harbor",vocabulary
