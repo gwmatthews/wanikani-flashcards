@@ -63,7 +63,7 @@ xelatex $SET-cards.tex
 
 PAGES=$(pdfinfo $SET-cards.pdf | grep "Pages" | awk '{print $NF}')    
 REVERSE=$(( PAGES / 2 ))
-OUTPUT=pagelist.tex                                                   
+OUTPUT=pagelist.tex
 NUM=0
 
 ## copy the template
@@ -79,9 +79,9 @@ fi
 arr=()                                                                
 for ((i=1; i<=$REVERSE; i++)); do
     NUM=$i
-	arr+=("$NUM" )
+	arr+=( "$NUM" )
     NUM=$(( REVERSE + i))
-    arr+=("$NUM" )
+    arr+=( "$NUM" )
 done
 
 ##### format for pdfpages

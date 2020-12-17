@@ -1,0 +1,40 @@
+{たいした}{大した}{Great}{}
+{やっつ}{八つ}{Eight Things}{}
+{かわ}{川}{River}{}
+{じんこう}{人工}{Artificial}{}
+{おおきさ}{大きさ}{Size}{}
+{おとな}{大人}{Adult}{}
+{さげる}{下げる}{To Lower}{}
+{さがる}{下がる}{To Get Lower}{}
+{じんこう}{人口}{Population}{}
+{おんな}{女}{Woman}{}
+{ひとり}{一人}{Alone}{}
+{のぼる}{上る}{To Climb}{}
+{ちから}{力}{Power}{}
+{ください}{下さい}{Please Give Me}{}
+{あげる}{上げる}{To Raise}{}
+{いち}{一}{One}{}
+{ひとつ}{一つ}{One Thing}{}
+{なな}{七}{Seven}{}
+{ななつ}{七つ}{Seven Things}{}
+{きゅう}{九}{Nine}{}
+{ここのつ}{九つ}{Nine Things}{}
+{に}{二}{Two}{}
+{ふたつ}{二つ}{Two Things}{}
+{ひと}{人}{Person}{}
+{ふたり}{二人}{Two People}{}
+{はいる}{入る}{To Enter}{}
+{いれる}{入れる}{To Insert}{}
+{はち}{八}{Eight}{}
+{じゅう}{十}{Ten}{}
+{さん}{三}{Three}{}
+{みっつ}{三つ}{Three Things}{}
+{さんにん}{三人}{Three People}{}
+{うえ}{上}{Up}{}
+{あがる}{上がる}{To Rise}{}
+{した}{下}{Down}{}
+{くち}{口}{Mouth}{}
+{いりぐち}{入り口}{Entrance}{}
+{おおきい}{大きい}{Big}{}
+{やま}{山}{Mountain}{}
+{ふじさん}{ふじ山}{Mt Fuji}{}

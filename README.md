@@ -12,6 +12,7 @@ A `\LaTeX` package and bash script for producing flashcard sets from .csv files 
 
 - `LaTeX` packages:
   - xeCJK
+  - ctexhook
   - nopageno
   - multicol
   - anyfontsize
