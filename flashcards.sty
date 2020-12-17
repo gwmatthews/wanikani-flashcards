@@ -30,8 +30,10 @@
 %%% NEW COMMANDS
 
 \newcommand{\kanji}{\centering\fontsize{50}{50}}   %%% set main font size 
+\newcommand{\redkanji}{\centering\fontsize{40}{40}\color{gray}}   %%% set main font size 
 \newcommand{\smallkanji}{\centering\fontsize{22}{22}}   %%% set main font size 
-\newcommand{\iskanji}[1]{\ifstrequal{#1}{k}{\kanji}{\smallkanji}}
+\newcommand{\iskanji}[1]{\ifstrequal{#1}{k}{\kanji}{\ifstrequal{#1}{r}\redkanji}{\smallkanji}}
+%\newcommand{\isradical}[1]{\ifstrequal{#1}{r}{\redkanji}{\smallkanji}}
 \newcommand{\means}{\tcblower\centering}                %%% position lower text
 
 %%% For styling flashcards

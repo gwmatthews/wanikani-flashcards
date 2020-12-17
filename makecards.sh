@@ -35,13 +35,14 @@ END=$(sed -n '9,11 p' < templates/card-frame)
 
 ## fill content into front of card: wrap comma separated fields in braces, add prefix, divide into sections, same for back
 
-FRONT=$(cat $SET.csv | sed -e 's_Unavailable_{radical_'| sed -e 's/["]/{/' -e 's/[",]./}{/' -e 's/[,"]./}{/' -e 's/"/}/' | sed -e 's/,vocabulary$/{}/' | sed -e 's/,radical$/{}/' | sed -e 's/,kanji$/{k}/'| sed 's/{/\\flashFront{/' | sed -f templates/spacing.sed | sed '/3/ a\\\RLmulticolcolumns')
 
-BACK=$(cat $SET.csv | sed -f templates/kana.sed | sed -e 's_Unavailable_{radical_'| sed -e 's/["]/{/' -e 's/[",]./}{/' -e 's/[,"]./}{/' -e 's/"/}/' | sed -e 's/,vocabulary/{}/' | sed -e 's/,radical/{}/' | sed -e 's/,kanji/{}/' | sed 's/{/\\flashBack{/' | sed -f templates/spacing.sed | sed '/3/ a\\\LRmulticolcolumns')
+FRONT=$(cat $SET.csv | sed -e 's_^_{_' -e 's_\t_}{_g' -e 's_$_}_' -e 's_"__g' -e 's_,_}{_g' -e 's_;_}{_g' -e 's_{radical}_{r}_' -e 's_{Unavailable}_{radical}_' -e 's_{vocabulary}_{}_' -e 's_{kanji}_{k}_' -e 's_}{[a-z]*}{_}{}{_' -e 's_咅__' -e 's_L__'| sed 's/{/\\flashFront{/' | sed -f templates/spacing.sed | sed '/3/ a\\\RLmulticolcolumns')
+
+BACK=$(cat $SET.csv | sed -f templates/kana.sed | sed -e 's_^_{_' -e 's_\t_}{_g' -e 's_$_}_' -e 's_"__g' -e 's_,_}{_g' -e 's_;_}{_g' -e 's_{radical}_{r}_' -e 's_{Unavailable}_{radical}_' -e 's_{vocabulary}_{}_' -e 's_{kanji}_{k}_' -e 's_}{[a-z]*}{_}{}{_' -e 's_咅__' -e 's_L__' | sed 's/{/\\flashBack{/' | sed -f templates/spacing.sed | sed '/3/ a\\\LRmulticolcolumns')
 
 # COMMENT OUT THE PREVIOUS LINE AND UNCOMMENT THE FOLLOWING TO CHANGE KANJI READINGS TO HIRAGANA
 
-#BACK=$(cat $SET.csv | sed -e 's_Unavailable_{radical_'| sed -e 's/["]/{/' -e 's/[",]./}{/' -e 's/[,"]./}{/' -e 's/"/}/' | sed -e 's/,vocabulary/{}/' | sed -e 's/,radical/{}/' | sed -e 's/,kanji/{}/' | sed 's/{/\\flashBack{/' | sed -f templates/spacing.sed | sed '/3/ a\\\LRmulticolcolumns')
+#BACK=$(cat $SET.csv | sed -e 's_^_{_' -e 's_\t_}{_g' -e 's_$_}_' -e 's_"__g' -e 's_,_}{_g' -e 's_;_}{_g' -e 's_{radical}_{r}_' -e 's_{Unavailable}_{radical}_' -e 's_{vocabulary}_{}_' -e 's_{kanji}_{k}_' -e 's_}{[a-z]*}{_}{}{_' -e 's_咅__' -e 's_L__' | sed 's/{/\\flashBack{/' | sed -f templates/spacing.sed | sed '/3/ a\\\LRmulticolcolumns')
 
 
 ## add front and back of card LaTeX wrappers
