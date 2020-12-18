@@ -49,12 +49,11 @@
 {    
 	height = 4.8cm,
 	width = 6.6cm,
-	toptitle=22pt,
+	toptitle=0.6cm,
 	colback  = white,
 	colbacktitle = white,
 	halign title= center,
 	halign=center,
-	valign=center,
 	fontlower= \fontsize{11}{11},
 	fonttitle= \fontsize{18}{18}, 
 	title    = {#2},
@@ -77,7 +76,7 @@
 \newcommand{\flashBack}[4]
 {
 	\flashset\hfuzz=99pt
-	\begin{flashbox}[coltitle=black, collower=black, colupper=white]{#1}
+	\begin{flashbox}[coltitle=black, collower=black, colupper=white, toptitle=2cm, middle=0mm, bottom=1cm]{#1}
 		\smallkanji #2 
 		\means #3
 	\end{flashbox}
