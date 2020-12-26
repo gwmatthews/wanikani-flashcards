@@ -1,348 +1,348 @@
-"いち",一,"One",kanji
-"に",二,"Two",kanji
-"く",九,"Nine",kanji
-"しち",七,"Seven",kanji
-"にん",人,"Person",kanji
-"にゅう",入,"Enter",kanji
-"はち",八,"Eight",kanji
-"りょく",力,"Power",kanji
-"じゅう",十,"Ten",kanji
-"さん",三,"Three",kanji
-"じょう",上,"Above",kanji
-"か",下,"Below",kanji
-"こう",口,"Mouth",kanji
-"たい",大,"Big",kanji
-"じょ",女,"Woman",kanji
-"さん",山,"Mountain",kanji
-"かわ",川,"River",kanji
-"こう",工,"Construction",kanji
-"とう",刀,"Sword",kanji
-"ど",土,"Dirt",kanji
-"せん",千,"Thousand",kanji
-"ゆう",夕,"Evening",kanji
-"し",子,"Child",kanji
-"しょう",小,"Small",kanji
-"ちょう",丁,"Street",kanji
-"りょう",了,"Finish",kanji
-"また",又,"Again",kanji
-"まる",丸,"Circle",kanji
-"さい",才,"Genius",kanji
-"ちゅう",中,"Middle",kanji
-"ご",五,"Five",kanji
-"ろく",六,"Six",kanji
-"えん",円,"Yen",kanji
-"てん",天,"Heaven",kanji
-"て",手,"Hand",kanji
-"ぶん",文,"Writing",kanji
-"にち",日,"Sun",kanji
-"げつ",月,"Moon",kanji
-"もく",木,"Tree",kanji
-"すい",水,"Water",kanji
-"か",火,"Fire",kanji
-"いぬ",犬,"Dog",kanji
-"おう",王,"King",kanji
-"しゅつ",出,"Exit",kanji
-"ゆう",右,"Right",kanji
-"し",四,"Four",kanji
-"さ",左,"Left",kanji
-"ほん",本,"Book",kanji
-"せい",正,"Correct",kanji
-"たま",玉,"Ball",kanji
-"た",田,"Rice Paddy",kanji
-"はく",白,"White",kanji
-"め",目,"Eye",kanji
-"せき",石,"Stone",kanji
-"りつ",立,"Stand",kanji
-"まん",万,"Ten Thousand",kanji
-"こん",今,"Now",kanji
-"げん",元,"Origin",kanji
-"こう",公,"Public",kanji
-"ない",内,"Inside",kanji
-"ぶん",分,"Part",kanji
-"せつ",切,"Cut",kanji
-"ご",午,"Noon",kanji
-"ゆう",友,"Friend",kanji
-"たい",太,"Fat",kanji
-"しょう",少,"Few",kanji
-"ひ",引,"Pull",kanji
-"しん",心,"Heart",kanji
-"と",戸,"Door",kanji
-"ほう",方,"Direction",kanji
-"ぎゅう",牛,"Cow",kanji
-"ちち",父,"Father",kanji
-"もう",毛,"Fur",kanji
-"し",止,"Stop",kanji
-"きょう",兄,"Older Brother",kanji
-"ふゆ",冬,"Winter",kanji
-"ほく",北,"North",kanji
-"はん",半,"Half",kanji
-"こ",古,"Old",kanji
-"だい",台,"Machine",kanji
-"がい",外,"Outside",kanji
-"し",市,"City",kanji
-"ひろ",広,"Wide",kanji
-"はは",母,"Mother",kanji
-"よう",用,"Task",kanji
-"や",矢,"Arrow",kanji
-"せ",世,"World",kanji
-"しゅ",主,"Master",kanji
-"た",他,"Other",kanji
-"だい",代,"Substitute",kanji
-"しゃ",写,"Copy",kanji
-"きょ",去,"Past",kanji
-"ごう",号,"Number",kanji
-"おう",央,"Center",kanji
-"へい",平,"Flat",kanji
-"だ",打,"Hit",kanji
-"こおり",氷,"Ice",kanji
-"もう",申,"Say Humbly",kanji
-"ひ",皮,"Skin",kanji
-"さら",皿,"Plate",kanji
-"れい",礼,"Thanks",kanji
-"きゅう",休,"Rest",kanji
-"せん",先,"Previous",kanji
-"めい",名,"Name",kanji
-"じ",字,"Letter",kanji
-"ねん",年,"Year",kanji
-"そう",早,"Early",kanji
-"き",気,"Energy",kanji
-"ひゃく",百,"Hundred",kanji
-"たけ",竹,"Bamboo",kanji
-"いと",糸,"Thread",kanji
-"みみ",耳,"Ear",kanji
-"むし",虫,"Insect",kanji
-"むら",村,"Village",kanji
-"だん",男,"Man",kanji
-"ちょう",町,"Town",kanji
-"はな",花,"Flower",kanji
-"み",見,"See",kanji
-"かい",貝,"Shellfish",kanji
-"あか",赤,"Red",kanji
-"そく",足,"Foot",kanji
-"しゃ",車,"Car",kanji
-"ふ",不,"Not",kanji
-"し",仕,"Doing",kanji
-"こう",交,"Mix",kanji
-"かい",会,"Meet",kanji
-"こう",光,"Sunlight",kanji
-"どう",同,"Same",kanji
-"かい",回,"Times",kanji
-"た",多,"Many",kanji
-"とう",当,"Correct",kanji
-"まい",毎,"Every",kanji
-"ち",池,"Pond",kanji
-"べい",米,"Rice",kanji
-"はね",羽,"Feather",kanji
-"こう",考,"Think",kanji
-"にく",肉,"Meat",kanji
-"じ",自,"Self",kanji
-"いろ",色,"Color",kanji
-"こう",行,"Go",kanji
-"せい",西,"West",kanji
-"なに",何,"What",kanji
-"たい",体,"Body",kanji
-"さく",作,"Make",kanji
-"ず",図,"Diagram",kanji
-"こえ",声,"Voice",kanji
-"ばい",売,"Sell",kanji
-"だい",弟,"Younger Brother",kanji
-"けい",形,"Shape",kanji
-"らい",来,"Come",kanji
-"しゃ",社,"Company",kanji
-"かく",角,"Angle",kanji
-"げん",言,"Say",kanji
-"たに",谷,"Valley",kanji
-"そう",走,"Run",kanji
-"きん",近,"Near",kanji
-"さと",里,"Hometown",kanji
-"むぎ",麦,"Wheat",kanji
-"がく",学,"Study",kanji
-"はやし",林,"Forest",kanji
-"くう",空,"Sky",kanji
-"きん",金,"Gold",kanji
-"あめ",雨,"Rain",kanji
-"せい",青,"Blue",kanji
-"くさ",草,"Grass",kanji
-"おん",音,"Sound",kanji
-"か",化,"Change",kanji
-"ち",地,"Earth",kanji
-"りょう",両,"Both",kanji
-"ぜん",全,"All",kanji
-"こう",向,"Yonder",kanji
-"あん",安,"Relax",kanji
-"しゅう",州,"State",kanji
-"きょく",曲,"Music",kanji
-"ゆう",有,"Have",kanji
-"じ",次,"Next",kanji
-"し",死,"Death",kanji
-"よう",羊,"Sheep",kanji
-"けつ",血,"Blood",kanji
-"きょう",京,"Capital",kanji
-"こく",国,"Country",kanji
-"や",夜,"Night",kanji
-"まい",妹,"Younger Sister",kanji
-"し",姉,"Older Sister",kanji
-"てん",店,"Shop",kanji
-"めい",明,"Bright",kanji
-"とう",東,"East",kanji
-"ほ",歩,"Walk",kanji
-"が",画,"Drawing",kanji
-"ちょく",直,"Fix",kanji
-"ち",知,"Know",kanji
-"ちょう",長,"Long",kanji
-"ぜん",前,"Front",kanji
-"なん",南,"South",kanji
-"しつ",室,"Room",kanji
-"ご",後,"Behind",kanji
-"し",思,"Think",kanji
-"せい",星,"Star",kanji
-"かつ",活,"Lively",kanji
-"かい",海,"Sea",kanji
-"てん",点,"Point",kanji
-"か",科,"Course",kanji
-"ちゃ",茶,"Tea",kanji
-"しょく",食,"Eat",kanji
-"くび",首,"Neck",kanji
-"けつ",欠,"Lack",kanji
-"し",氏,"Family Name",kanji
-"ゆう",由,"Reason",kanji
-"さつ",札,"Bill",kanji
-"みん",民,"Peoples",kanji
-"へん",辺,"Area",kanji
-"つ",付,"Attach",kanji
-"い",以,"From",kanji
-"しつ",失,"Fault",kanji
-"ひつ",必,"Certain",kanji
-"み",未,"Not Yet",kanji
-"まつ",末,"End",kanji
-"こう",校,"School",kanji
-"なつ",夏,"Summer",kanji
-"か",家,"House",kanji
-"じゃく",弱,"Weak",kanji
-"じ",時,"Time",kanji
-"かみ",紙,"Paper",kanji
-"き",記,"Write Down",kanji
-"つう",通,"Pass Through",kanji
-"こう",高,"Tall",kanji
-"きょう",強,"Strong",kanji
-"きょう",教,"Teach",kanji
-"り",理,"Reason",kanji
-"そ",組,"Group",kanji
-"せん",船,"Boat",kanji
-"しゅう",週,"Week",kanji
-"ゆき",雪,"Snow",kanji
-"ぎょ",魚,"Fish",kanji
-"ちょう",鳥,"Bird",kanji
-"き",黄,"Yellow",kanji
-"こく",黒,"Black",kanji
-"し",支,"Support",kanji
-"じゅう",住,"Dwelling",kanji
-"じょ",助,"Help",kanji
-"い",医,"Medicine",kanji
-"くん",君,"Buddy",kanji
-"たい",対,"Versus",kanji
-"きょく",局,"Bureau",kanji
-"やく",役,"Service",kanji
-"とう",投,"Throw",kanji
-"けつ",決,"Decide",kanji
-"きゅう",究,"Research",kanji
-"しん",身,"Somebody",kanji
-"しゃ",者,"Someone",kanji
-"けん",研,"Sharpen",kanji
-"ば",馬,"Horse",kanji
-"もり",森,"Forest",kanji
-"じょう",場,"Location",kanji
-"あさ",朝,"Morning",kanji
-"ばん",番,"Number In A Series",kanji
-"こた",答,"Answer",kanji
-"え",絵,"Drawing",kanji
-"か",買,"Buy",kanji
-"どう",道,"Road",kanji
-"かん",間,"Interval",kanji
-"くも",雲,"Cloud",kanji
-"すう",数,"Count",kanji
-"らく",楽,"Comfort",kanji
-"わ",話,"Talk",kanji
-"でん",電,"Electricity",kanji
-"しょ",所,"Place",kanji
-"じ",事,"Action",kanji
-"し",使,"Use",kanji
-"ぐ",具,"Tool",kanji
-"じゅ",受,"Accept",kanji
-"わ",和,"Peace",kanji
-"し",始,"Begin",kanji
-"てい",定,"Determine",kanji
-"じつ",実,"Truth",kanji
-"ふく",服,"Clothes",kanji
-"およ",泳,"Swim",kanji
-"ぶつ",物,"Thing",kanji
-"く",苦,"Suffering",kanji
-"ひょう",表,"Express",kanji
-"ぶ",部,"Part",kanji
-"の",乗,"Ride",kanji
-"きゃく",客,"Guest",kanji
-"や",屋,"Roof",kanji
-"ど",度,"Degrees",kanji
-"じ",持,"Hold",kanji
-"かい",界,"World",kanji
-"はつ",発,"Departure",kanji
-"そう",相,"Mutual",kanji
-"けん",県,"Prefecture",kanji
-"び",美,"Beauty",kanji
-"ふ",負,"Lose",kanji
-"そう",送,"Send",kanji
-"じゅう",重,"Heavy",kanji
-"だん",談,"Discuss",kanji
-"よう",要,"Need",kanji
-"しょう",勝,"Win",kanji
-"か",仮,"Temporary",kanji
-"お",起,"Wake Up",kanji
-"そく",速,"Fast",kanji
-"はい",配,"Distribute",kanji
-"しゅ",酒,"Alcohol",kanji
-"いん",院,"Institution",kanji
-"しゅう",終,"End",kanji
-"しゅう",習,"Learn",kanji
-"てん",転,"Revolve",kanji
-"しん",進,"Advance",kanji
-"らく",落,"Fall",kanji
-"は",葉,"Leaf",kanji
-"かる",軽,"Lightweight",kanji
-"うん",運,"Carry",kanji
-"かい",開,"Open",kanji
-"しゅう",集,"Collect",kanji
-"の",飲,"Drink",kanji
-"ぎょう",業,"Business",kanji
-"かん",漢,"Chinese",kanji
-"ろ",路,"Road",kanji
-"のう",農,"Farming",kanji
-"てつ",鉄,"Iron",kanji
-"か",歌,"Song",kanji
-"さん",算,"Calculate",kanji
-"ぶん",聞,"Hear",kanji
-"ご",語,"Language",kanji
-"よ",読,"Read",kanji
-"な",鳴,"Chirp",kanji
-"せん",線,"Line",kanji
-"よこ",横,"Side",kanji
-"ちょう",調,"Investigate",kanji
-"しん",親,"Parent",kanji
-"あたま",頭,"Head",kanji
-"かお",顔,"Face",kanji
-"びょう",病,"Sick",kanji
-"さい",最,"Most",kanji
-"せい",生,"Life",kanji
-"ぼう",亡,"Death",kanji
-"ふう",風,"Wind",kanji
-"よ",予,"Beforehand",kanji
-"はん",反,"Anti",kanji
-"のま",々,"Repeater",kanji
-"しん",新,"New",kanji
-"へん",返,"Return",kanji
-"きゅう",求,"Request",kanji
-"し",私,"I",kanji
-"ほ",保,"Preserve",kanji
-"し",試,"Try",kanji
-"けん",験,"Test",kanji
-"ほう",宝,"Treasure",kanji
-"きん",斤,"Axe",kanji
+﻿じょう	上	Above	kanji	じょう:on, うえ:kun, あ:kun, のぼ:kun, うわ:kun, かみ:kun
+いち	一	One	kanji	いち:on, いつ:on, ひと:kun, かず:nan
+に	二	Two	kanji	に:on, ふた:kun
+く	九	Nine	kanji	く:on, きゅう:on, ここの:kun
+しち	七	Seven	kanji	しち:on, なな:kun, なの:kun
+にん	人	Person	kanji	にん:on, じん:on, ひと:kun, と:kun
+にゅう	入	Enter	kanji	にゅう:on, はい:kun, い:kun
+はち	八	Eight	kanji	はち:on, や:kun, よう:kun
+りょく	力	Power	kanji	りょく:on, りき:on, ちから:kun
+じゅう	十	Ten	kanji	じゅう:on, とお:kun
+さん	三	Three	kanji	さん:on, み:kun
+か	下	Below	kanji	か:on, げ:on, した:kun, さ:kun, くだ:kun, お:kun
+こう	口	Mouth	kanji	こう:on, く:on, くち:kun
+たい	大	Big	kanji	たい:on, だい:on, おお:kun, ひろ:nan
+じょ	女	Woman	kanji	じょ:on, おんな:kun, め:kun
+さん	山	Mountain	kanji	さん:on, やま:kun
+かわ	川	River	kanji	かわ:kun, せん:on
+こう	工	Construction	kanji	こう:on, く:on
+とう	刀	Sword	kanji	とう:on, かたな:kun
+すい	水	Water	kanji	すい:on, みず:kun
+しゅつ	出	Exit	kanji	しゅつ:on, で:kun, だ:kun
+たま	玉	Ball	kanji	たま:kun, ぎょく:on
+ゆう	夕	Evening	kanji	ゆう:kun, せき:on
+りょう	了	Finish	kanji	りょう:on
+また	又	Again	kanji	また:kun
+もく	木	Tree	kanji	もく:on, ぼく:on, き:kun, こ:kun
+か	火	Fire	kanji	か:on, ひ:kun, ほ:kun
+ど	土	Dirt	kanji	ど:on, と:on, つち:kun
+せん	千	Thousand	kanji	せん:on, ち:kun
+し	子	Child	kanji	し:on, す:on, こ:kun
+しょう	小	Small	kanji	しょう:on, ちい:kun, こ:kun, お:kun
+ちょう	丁	Street	kanji	ちょう:on, てい:on
+まる	丸	Circle	kanji	まる:kun, がん:on
+さい	才	Genius	kanji	さい:on
+ちゅう	中	Middle	kanji	ちゅう:on, なか:kun
+ご	五	Five	kanji	ご:on, いつ:kun
+ろく	六	Six	kanji	ろく:on, む:kun
+えん	円	Yen	kanji	えん:on, まる:kun
+てん	天	Heaven	kanji	てん:on, あま:kun
+て	手	Hand	kanji	て:kun, しゅ:on, ず:on
+ぶん	文	Writing	kanji	ぶん:on, もん:on
+にち	日	Sun	kanji	にち:on, じつ:on, ひ:kun, か:kun, び:kun
+げつ	月	Moon	kanji	げつ:on, がつ:on, つき:kun
+いぬ	犬	Dog	kanji	いぬ:kun, けん:on
+おう	王	King	kanji	おう:on
+ゆう	右	Right	kanji	ゆう:on, う:on, みぎ:kun
+し	四	Four	kanji	し:on, よん:kun, よ:kun
+さ	左	Left	kanji	さ:on, ひだり:kun
+ほん	本	Book	kanji	ほん:on, もと:kun
+せい	正	Correct	kanji	せい:on, しょう:on, ただ:kun, まさ:kun
+た	田	Rice Paddy	kanji	た:kun, でん:on
+はく	白	White	kanji	はく:on, しろ:kun, しら:kun
+め	目	Eye	kanji	め:kun, もく:on
+りつ	立	Stand	kanji	りつ:on, りゅう:on, た:kun
+のま	々	Repeater	kanji	のま:kun
+ご	午	Noon	kanji	ご:on
+しょう	少	Few	kanji	しょう:on, すこ:kun, すく:kun
+ぎゅう	牛	Cow	kanji	ぎゅう:on, うし:kun
+はん	半	Half	kanji	はん:on, なか:kun
+こん	今	Now	kanji	こん:on, いま:kun
+せつ	切	Cut	kanji	せつ:on, き:kun
+ひ	引	Pull	kanji	ひ:kun, いん:on
+し	止	Stop	kanji	し:on, と:kun, や:kun
+こ	古	Old	kanji	こ:on, ふる:kun
+がい	外	Outside	kanji	がい:on, そと:kun, はず:kun
+や	矢	Arrow	kanji	や:kun, し:on
+まん	万	Ten Thousand	kanji	まん:on, ばん:on
+げん	元	Origin	kanji	げん:on, がん:on, もと:kun
+こう	公	Public	kanji	こう:on
+ない	内	Inside	kanji	ない:on, うち:kun
+ぶん	分	Part	kanji	ぶん:on, ふん:on, ぶ:on, わ:kun
+ゆう	友	Friend	kanji	ゆう:on, とも:kun
+たい	太	Fat	kanji	たい:on, た:on, ふと:kun, おお:nan
+しん	心	Heart	kanji	しん:on, こころ:kun
+と	戸	Door	kanji	と:kun, こ:on
+ほう	方	Direction	kanji	ほう:on, かた:kun
+ちち	父	Father	kanji	ちち:kun, とう:kun, ふ:on
+もう	毛	Fur	kanji	もう:on, け:kun
+ふゆ	冬	Winter	kanji	ふゆ:kun, とう:on
+ほく	北	North	kanji	ほく:on, きた:kun
+だい	台	Machine	kanji	だい:on, たい:on
+し	市	City	kanji	し:on, いち:kun
+ひろ	広	Wide	kanji	ひろ:kun, こう:on
+はは	母	Mother	kanji	はは:kun, かあ:kun, ぼ:on
+よう	用	Task	kanji	よう:on, もち:kun
+せい	生	Life	kanji	せい:on, しょう:on, い:kun, なま:kun, う:kun, は:kun, き:kun
+しゅ	主	Master	kanji	しゅ:on, おも:kun, ぬし:kun
+だい	代	Substitute	kanji	だい:on, か:kun, かわ:kun, しろ:kun
+しゃ	写	Copy	kanji	しゃ:on, うつ:kun
+おう	央	Center	kanji	おう:on
+へい	平	Flat	kanji	へい:on, ひょう:on, びょう:on, たい:kun, ひら:kun
+こおり	氷	Ice	kanji	こおり:kun, ひょう:on
+もう	申	Say Humbly	kanji	もう:kun, しん:on
+れい	礼	Thanks	kanji	れい:on
+せん	先	Previous	kanji	せん:on, さき:kun, まず:kun
+たけ	竹	Bamboo	kanji	たけ:kun
+むら	村	Village	kanji	むら:kun, そん:on
+だん	男	Man	kanji	だん:on, なん:on, おとこ:kun
+ちょう	町	Town	kanji	ちょう:on, まち:kun
+かい	貝	Shellfish	kanji	かい:kun
+そく	足	Foot	kanji	そく:on, あし:kun, た:kun
+し	仕	Doing	kanji	し:on, つか:kun
+せき	石	Stone	kanji	せき:on, いし:kun
+せ	世	World	kanji	せ:on, せい:on, よ:kun
+た	他	Other	kanji	た:on, ほか:kun
+きょ	去	Past	kanji	きょ:on, こ:on, さ:kun
+ごう	号	Number	kanji	ごう:on
+だ	打	Hit	kanji	だ:on, う:kun, ぶ:kun
+さら	皿	Plate	kanji	さら:kun
+きゅう	休	Rest	kanji	きゅう:on, やす:kun
+めい	名	Name	kanji	めい:on, みょう:on, な:kun
+じ	字	Letter	kanji	じ:on
+ねん	年	Year	kanji	ねん:on, とし:kun
+そう	早	Early	kanji	そう:on, はや:kun, さ:kun
+き	気	Energy	kanji	き:on, け:on, いき:kun
+ひゃく	百	Hundred	kanji	ひゃく:on, もも:kun
+いと	糸	Thread	kanji	いと:kun, し:on
+みみ	耳	Ear	kanji	みみ:kun, じ:on
+むし	虫	Insect	kanji	むし:kun, ちゅう:on, き:on
+はな	花	Flower	kanji	はな:kun, か:on, け:on
+み	見	See	kanji	み:kun, けん:on
+あか	赤	Red	kanji	あか:kun, せき:on
+しゃ	車	Car	kanji	しゃ:on, くるま:kun
+ふ	不	Not	kanji	ふ:on, ぶ:on
+ほう	宝	Treasure	kanji	ほう:on, たから:kun
+こう	考	Think	kanji	こう:on, かんが:kun
+かく	角	Angle	kanji	かく:on, かど:kun, つの:kun
+げん	言	Say	kanji	げん:on, ごん:on, い:kun, こと:kun
+むぎ	麦	Wheat	kanji	むぎ:kun, ばく:on
+くう	空	Sky	kanji	くう:on, そら:kun, あ:kun, から:kun, す:kun
+きょう	兄	Older Brother	kanji	きょう:on, あに:kun, にい:kun
+ひ	皮	Skin	kanji	ひ:on, かわ:kun
+かい	会	Meet	kanji	かい:on, あ:kun
+こう	光	Sunlight	kanji	こう:on, ひかり:kun, ひか:kun
+どう	同	Same	kanji	どう:on, おな:kun
+かい	回	Times	kanji	かい:on, まわ:kun
+た	多	Many	kanji	た:on, おお:kun
+とう	当	Correct	kanji	とう:on, あ:kun
+まい	毎	Every	kanji	まい:on, ごと:kun
+べい	米	Rice	kanji	べい:on, まい:on, こめ:kun
+じ	自	Self	kanji	じ:on, し:on
+こう	行	Go	kanji	こう:on, ぎょう:on, い:kun, おこな:kun, ゆ:kun
+たい	体	Body	kanji	たい:on, からだ:kun
+さく	作	Make	kanji	さく:on, さ:on, つく:kun
+こえ	声	Voice	kanji	こえ:kun, せい:on
+けい	形	Shape	kanji	けい:on, ぎょう:on, かた:kun, かたち:kun
+らい	来	Come	kanji	らい:on, く:kun
+しゃ	社	Company	kanji	しゃ:on, やしろ:kun
+そう	走	Run	kanji	そう:on, はし:kun
+さと	里	Hometown	kanji	さと:kun, り:on
+がく	学	Study	kanji	がく:on, まな:kun
+せい	青	Blue	kanji	せい:on, しょう:on, あお:kun
+おん	音	Sound	kanji	おん:on, おと:kun, ね:kun
+きん	斤	Axe	kanji	きん:on
+こう	交	Mix	kanji	こう:on, まじ:kun, ま:kun, か:kun
+はね	羽	Feather	kanji	はね:kun, は:kun, わ:kun, う:on
+にく	肉	Meat	kanji	にく:on
+いろ	色	Color	kanji	いろ:kun, しき:on, しょく:on
+せい	西	West	kanji	せい:on, さい:on, にし:kun
+なに	何	What	kanji	なに:kun, なん:kun, か:on
+ず	図	Diagram	kanji	ず:on, と:on, え:kun, はか:kun
+だい	弟	Younger Brother	kanji	だい:on, で:on, てい:on, おとうと:kun
+たに	谷	Valley	kanji	たに:kun, こく:on, せ:nan
+きん	近	Near	kanji	きん:on, こん:on, ちか:kun
+はやし	林	Forest	kanji	はやし:kun, りん:on
+きん	金	Gold	kanji	きん:on, かね:kun
+あめ	雨	Rain	kanji	あめ:kun, あま:kun, う:on
+くさ	草	Grass	kanji	くさ:kun, そう:on
+が	画	Drawing	kanji	が:on, かく:on
+ち	知	Know	kanji	ち:on, し:kun
+か	化	Change	kanji	か:on, ば:kun
+ち	地	Earth	kanji	ち:on, じ:on
+りょう	両	Both	kanji	りょう:on
+ぜん	全	All	kanji	ぜん:on, すべ:kun, まった:kun
+こう	向	Yonder	kanji	こう:on, む:kun, なた:nan
+あん	安	Relax	kanji	あん:on, やす:kun
+しゅう	州	State	kanji	しゅう:on
+きょく	曲	Music	kanji	きょく:on, ま:kun
+ゆう	有	Have	kanji	ゆう:on, う:on, あ:kun
+じ	次	Next	kanji	じ:on, つぎ:kun
+し	死	Death	kanji	し:on, し:kun
+よう	羊	Sheep	kanji	よう:on, ひつじ:kun
+けつ	血	Blood	kanji	けつ:on, ち:kun
+きょう	京	Capital	kanji	きょう:on, みやこ:kun
+こく	国	Country	kanji	こく:on, くに:kun
+や	夜	Night	kanji	や:on, よ:kun, よる:kun
+まい	妹	Younger Sister	kanji	まい:on, いもうと:kun
+し	姉	Older Sister	kanji	し:on, お:kun, あね:kun, ねえ:kun
+てん	店	Shop	kanji	てん:on, みせ:kun
+めい	明	Bright	kanji	めい:on, あ:kun, あか:kun, あき:kun
+とう	東	East	kanji	とう:on, ひがし:kun
+ほ	歩	Walk	kanji	ほ:on, ある:kun, あゆ:kun
+ちょく	直	Fix	kanji	ちょく:on, じき:on, なお:kun
+ちょう	長	Long	kanji	ちょう:on, なが:kun, は:nan
+ぜん	前	Front	kanji	ぜん:on, まえ:kun
+なん	南	South	kanji	なん:on, みなみ:kun
+しつ	室	Room	kanji	しつ:on
+ご	後	Behind	kanji	ご:on, こう:on, うし:kun, あと:kun, のち:kun
+し	思	Think	kanji	し:on, おも:kun
+せい	星	Star	kanji	せい:on, ほし:kun
+かつ	活	Lively	kanji	かつ:on, い:kun
+かい	海	Sea	kanji	かい:on, うみ:kun
+てん	点	Point	kanji	てん:on, つ:kun
+か	科	Course	kanji	か:on
+ちゃ	茶	Tea	kanji	ちゃ:on, さ:on
+しょく	食	Eat	kanji	しょく:on, た:kun, く:kun
+くび	首	Neck	kanji	くび:kun, しゅ:on
+ぼう	亡	Death	kanji	ぼう:on, な:kun
+し	私	I	kanji	し:on, わたし:kun
+し	氏	Family Name	kanji	し:on, うじ:kun
+けつ	欠	Lack	kanji	けつ:on, か:kun
+みん	民	Peoples	kanji	みん:on, たみ:kun
+しつ	失	Fault	kanji	しつ:on, うしな:kun
+ひつ	必	Certain	kanji	ひつ:on, かなら:kun
+つう	通	Pass Through	kanji	つう:on, とお:kun, かよ:kun
+ゆう	由	Reason	kanji	ゆう:on, よし:kun, よ:kun
+さつ	札	Bill	kanji	さつ:on, ふだ:kun
+へん	辺	Area	kanji	へん:on, あた:kun, べ:kun
+つ	付	Attach	kanji	つ:kun, ふ:on
+い	以	From	kanji	い:on
+み	未	Not Yet	kanji	み:on, ま:kun, いま:kun, ひつじ:kun
+まつ	末	End	kanji	まつ:on, すえ:kun
+こう	校	School	kanji	こう:on
+なつ	夏	Summer	kanji	なつ:kun, げ:on, か:on, が:on
+か	家	House	kanji	か:on, け:on, いえ:kun, や:kun, うち:kun
+じゃく	弱	Weak	kanji	じゃく:on, よわ:kun
+じ	時	Time	kanji	じ:on, とき:kun
+かみ	紙	Paper	kanji	かみ:kun, し:on
+き	記	Write Down	kanji	き:on, しる:kun
+こう	高	Tall	kanji	こう:on, たか:kun
+きょう	強	Strong	kanji	きょう:on, つよ:kun
+きょう	教	Teach	kanji	きょう:on, おし:kun, おそ:kun
+り	理	Reason	kanji	り:on, ことわり:kun
+そ	組	Group	kanji	そ:on, くみ:kun
+せん	船	Boat	kanji	せん:on, ふね:kun
+しゅう	週	Week	kanji	しゅう:on
+ゆき	雪	Snow	kanji	ゆき:kun, せつ:on
+ぎょ	魚	Fish	kanji	ぎょ:on, さかな:kun
+ちょう	鳥	Bird	kanji	ちょう:on, とり:kun
+き	黄	Yellow	kanji	き:kun, おう:on
+こく	黒	Black	kanji	こく:on, くろ:kun
+ふう	風	Wind	kanji	ふう:on, ふ:on, かぜ:kun
+じょ	助	Help	kanji	じょ:on, たす:kun, すけ:kun
+とう	投	Throw	kanji	とう:on, な:kun
+はん	反	Anti	kanji	はん:on
+しゃ	者	Someone	kanji	しゃ:on, もの:kun
+ばん	番	Number In A Series	kanji	ばん:on
+どう	道	Road	kanji	どう:on, みち:kun
+わ	話	Talk	kanji	わ:on, はな:kun, はなし:kun
+ち	池	Pond	kanji	ち:on, いけ:kun
+し	支	Support	kanji	し:on, ささ:kun
+じゅう	住	Dwelling	kanji	じゅう:on, す:kun
+い	医	Medicine	kanji	い:on
+くん	君	Buddy	kanji	くん:on, きみ:kun
+たい	対	Versus	kanji	たい:on
+きょく	局	Bureau	kanji	きょく:on
+やく	役	Service	kanji	やく:on
+けつ	決	Decide	kanji	けつ:on, き:kun
+きゅう	究	Research	kanji	きゅう:on, きわ:kun
+しん	身	Somebody	kanji	しん:on, み:kun
+けん	研	Sharpen	kanji	けん:on, と:kun
+ば	馬	Horse	kanji	ば:on, うま:kun
+もり	森	Forest	kanji	もり:kun, しん:on
+じょう	場	Location	kanji	じょう:on, ば:kun
+あさ	朝	Morning	kanji	あさ:kun, ちょう:on
+こた	答	Answer	kanji	こた:kun, とう:on
+え	絵	Drawing	kanji	え:on
+か	買	Buy	kanji	か:kun, ばい:on
+かん	間	Interval	kanji	かん:on, けん:on, あいだ:kun, ま:kun
+くも	雲	Cloud	kanji	くも:kun, うん:on
+すう	数	Count	kanji	すう:on, かぞ:kun, かず:kun
+らく	楽	Comfort	kanji	らく:on, がく:on, たの:kun
+でん	電	Electricity	kanji	でん:on
+しょ	所	Place	kanji	しょ:on, ところ:kun
+ど	度	Degrees	kanji	ど:on, たく:on, たび:kun
+わ	和	Peace	kanji	わ:on, お:on, なご:kun, やわ:kun, かず:nan, より:nan
+しょう	勝	Win	kanji	しょう:on, か:kun
+けん	験	Test	kanji	けん:on, ため:kun, ためし:kun
+し	使	Use	kanji	し:on, つか:kun
+てい	定	Determine	kanji	てい:on, じょう:on, さだ:kun
+じつ	実	Truth	kanji	じつ:on, み:kun
+およ	泳	Swim	kanji	およ:kun, えい:on
+ぶつ	物	Thing	kanji	ぶつ:on, もつ:on, もの:kun
+ぶ	部	Part	kanji	ぶ:on, へ:kun
+じ	持	Hold	kanji	じ:on, も:kun
+そう	相	Mutual	kanji	そう:on, しょう:on, あい:kun
+び	美	Beauty	kanji	び:on, み:on, うつく:kun
+か	仮	Temporary	kanji	か:on, かり:kun
+へん	返	Return	kanji	へん:on, かえ:kun
+し	試	Try	kanji	し:on, こころ:kun, ため:kun
+ばい	売	Sell	kanji	ばい:on, う:kun
+じ	事	Action	kanji	じ:on, こと:kun, つか:kun
+ぐ	具	Tool	kanji	ぐ:on
+じゅ	受	Accept	kanji	じゅ:on, う:kun
+ふく	服	Clothes	kanji	ふく:on
+く	苦	Suffering	kanji	く:on, くる:kun, にが:kun
+ひょう	表	Express	kanji	ひょう:on, あらわ:kun, おもて:kun
+の	乗	Ride	kanji	の:kun, じょう:on
+きゃく	客	Guest	kanji	きゃく:on
+や	屋	Roof	kanji	や:kun, おく:on
+かい	界	World	kanji	かい:on
+はつ	発	Departure	kanji	はつ:on
+けん	県	Prefecture	kanji	けん:on
+ふ	負	Lose	kanji	ふ:on, ま:kun, お:kun
+そう	送	Send	kanji	そう:on, おく:kun
+じゅう	重	Heavy	kanji	じゅう:on, ちょう:on, おも:kun, かさ:kun, え:kun
+だん	談	Discuss	kanji	だん:on
+よう	要	Need	kanji	よう:on, い:kun, かなめ:kun
+よ	予	Beforehand	kanji	よ:on, あらかじ:kun
+しん	新	New	kanji	しん:on, あたら:kun, あら:kun, にい:kun
+ほ	保	Preserve	kanji	ほ:on, たも:kun
+てん	転	Revolve	kanji	てん:on, ころ:kun
+あたま	頭	Head	kanji	あたま:kun, ず:on, とう:on
+しゅう	終	End	kanji	しゅう:on, おわ:kun, お:kun
+うん	運	Carry	kanji	うん:on, はこ:kun
+ろ	路	Road	kanji	ろ:on, じ:kun, みち:kun
+よこ	横	Side	kanji	よこ:kun, おう:on
+しん	親	Parent	kanji	しん:on, おや:kun, した:kun
+し	始	Begin	kanji	し:on, はじ:kun
+そく	速	Fast	kanji	そく:on, はや:kun
+しゅう	習	Learn	kanji	しゅう:on, なら:kun
+らく	落	Fall	kanji	らく:on, お:kun
+かる	軽	Lightweight	kanji	かる:kun, かろ:kun, けい:on
+ぶん	聞	Hear	kanji	ぶん:on, もん:on, き:kun
+お	起	Wake Up	kanji	お:kun, き:on
+はい	配	Distribute	kanji	はい:on, くば:kun
+しゅ	酒	Alcohol	kanji	しゅ:on, さけ:kun, さか:kun
+いん	院	Institution	kanji	いん:on
+しん	進	Advance	kanji	しん:on, すす:kun
+は	葉	Leaf	kanji	は:kun, よう:on, ば:kun
+かい	開	Open	kanji	かい:on, あ:kun, ひら:kun
+しゅう	集	Collect	kanji	しゅう:on, あつ:kun
+の	飲	Drink	kanji	の:kun, いん:on
+ぎょう	業	Business	kanji	ぎょう:on
+かん	漢	Chinese	kanji	かん:on
+のう	農	Farming	kanji	のう:on
+てつ	鉄	Iron	kanji	てつ:on
+か	歌	Song	kanji	か:on, うた:kun
+さん	算	Calculate	kanji	さん:on, そろ:kun
+ご	語	Language	kanji	ご:on, かた:kun
+よ	読	Read	kanji	よ:kun, とう:on, どく:on
+な	鳴	Chirp	kanji	な:kun, めい:on
+せん	線	Line	kanji	せん:on
+ちょう	調	Investigate	kanji	ちょう:on, しら:kun
+かお	顔	Face	kanji	かお:kun, がん:on
+びょう	病	Sick	kanji	びょう:on, や:kun, やまい:kun
+さい	最	Most	kanji	さい:on, もっと:kun
+きゅう	求	Request	kanji	きゅう:on, もと:kun

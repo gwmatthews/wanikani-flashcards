@@ -29,7 +29,7 @@
 
 %%% NEW COMMANDS
 
-\newcommand{\kanji}{\centering\fontsize{50}{50}}   %%% set main font size 
+\newcommand{\kanji}{\centering\fontsize{60}{60}}   %%% set main font size 
 \newcommand{\redkanji}{\centering\fontsize{40}{40}\color{gray}}   %%% set main font size 
 \newcommand{\smallkanji}{\centering\fontsize{22}{22}}   %%% set main font size 
 \newcommand{\iskanji}[1]{\ifstrequal{#1}{k}{\kanji}{\ifstrequal{#1}{r}\redkanji}{\smallkanji}}
@@ -39,6 +39,8 @@
 %%% For styling flashcards
 
 \newcommand{\flashset}{\tcbset{enhanced, segmentation hidden, frame hidden, borderline south={0.5pt}{-6.5pt}{black}, borderline north={0.5pt}{0pt}{black}}}
+
+\newCJKfontfamily\ipag{ipag.ttf}
 
 %%%%%%%%%%%%%%
 % FIXED HEIGHT BOX FOR FLASHCARDS
@@ -55,7 +57,7 @@
 	halign title= center,
 	halign=center,
 	fontlower= \fontsize{11}{11},
-	fonttitle= \fontsize{18}{18}, 
+	fonttitle= \ipag\fontsize{18}{18}, 
 	title    = {#2},
 	#1,
 }
@@ -76,7 +78,7 @@
 \newcommand{\flashBack}[4]
 {
 	\flashset\hfuzz=99pt
-	\begin{flashbox}[coltitle=black, collower=black, colupper=white, toptitle=2cm, middle=0mm, bottom=1cm]{#1}
+	\begin{flashbox}[coltitle=black!30, collower=gray, colupper=white, toptitle=2cm, middle=0mm, bottom=1cm, right=0mm, left=0mm]{#1}
 		\smallkanji #2 
 		\means #3
 	\end{flashbox}

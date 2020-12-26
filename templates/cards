@@ -3,7 +3,8 @@
 
 %\usepackage{sutras}
 \usepackage{flashcards}
-\setCJKmainfont{ipag.ttf}  
+\setCJKmainfont{ipag.ttf}
+%\setCJKmainfont{KanjiStrokeOrders}
 \setCJKsansfont{ipag.ttf}
 
 %%%%%%%
