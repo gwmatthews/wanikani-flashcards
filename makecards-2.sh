@@ -1,108 +1,21 @@
 #!/bin/bash
+###  generates Japanese flashcards from csv files produced by Wanikani Item Inspector
+###  
 
-die() {
-    printf '%s\n' "$1" >&2
-    exit 1
-}
+function usage {
 
-usage() {
-
-echo Basic use "$0 <filename>"
-echo For a4 paper "$0 -p a4 <filename>"
-echo For only verbs "$0 -o verbs <filename>"
-echo For only nouns "$0 -o nouns <filename>"
-echo For only adjectives "$0 -o adjectives <filename>"
-echo part of speech can be combined with papersize "$0 -o verbs -p a4 <filename>" 
+echo "$0 <filename> (optional, for a4 paper size) a4" 
 
 }
-
 
 if [ $# -lt 1 ]; then
 	    usage
 	  	exit 1 # error
 fi
 
-# Initialize all the option variables.
-# This ensures we are not contaminated by variables from the environment.
-FILENAME=
-PAPER=
-ONLY=
-
-while :; do
-    case $1 in
-        -h|-\?|--help)
-            usage    # Display a usage synopsis.
-            exit
-            ;;
-#        -f)       # Takes an option argument; ensure it has been specified.
-#            if [ "$2" ]; then
-#                FILENAME=$2
-#                shift
-#            else
-#                die 'ERROR: "-f" requires a file name.'
-#            fi
-#            ;;
-        -p)
-            if [ "$2" ]; then
-                PAPER=$2
-                shift
-            else
-                die 'ERROR: "-p" requires a paper size, try a4 or letter.'
-            fi
-            ;;
-         -o)
-            if [ "$2" ]; then
-                ONLY=$2
-                shift
-            else
-                die 'ERROR: "-o" requires a part of speech, try verbs.'
-            fi
-            ;;
-        --)              # End of all options.
-            shift
-            break
-            ;;
-        -?*)
-            die 'ERROR: Unknown option.'
-            ;;
-        *)               # Default case: No more options, so break out of the loop.
-            break
-    esac
-
-    shift
-done
-
-# if --file was provided, open it for writing, else duplicate stdout
-if [ "$FILENAME" ]; then
-    echo "$FILENAME"
-    SET="${FILENAME%.[^.]*}"
-else
-    FILENAME=$1
-    SET="${FILENAME%.[^.]*}"
-fi
-
-if [ "$PAPER" ]; then
-    echo "$PAPER"
-else
-    PAPER=letter
-    echo papersize $PAPER
-fi
-
-if [ "$ONLY" ]; then
-    echo "$ONLY"   
-    SET="${FILENAME%.[^.]*}-$ONLY"
-else
-    ONLY=all
-    echo print $ONLY
-    SET="${FILENAME%.[^.]*}"
-fi
-
-
-echo The file is $FILENAME.
-echo The paper is $PAPER size.
-echo "Cards will be made for" $ONLY.
-echo The set will be named $SET
-
+FILENAME=$1
+SET="${FILENAME%.[^.]*}"
+PAPER=${2:-letter}
 
 ## set paper size
 
@@ -112,17 +25,6 @@ if [ $PAPER = a4 ]; then
 else
  sed -i -e 's/a4paper/letterpaper/' templates/cards
  sed -i -e 's/a4paper/letterpaper/' templates/remix
-fi
-
-
-## filter by part of speech
-
-if [ $ONLY = verbs ]; then
- cat $FILENAME | awk -F"\t" ' $0~/godan|ichidan/ ' | awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 }' > $SET.csv
-elif [ $ONLY = nouns ]; then
- cat $FILENAME | awk -F"\t" ' $0~/noun/ ' | awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 }' > $SET.csv
-elif [ $ONLY = adjectives ]; then
- cat $FILENAME | awk -F"\t" ' $0~/adjective/ ' | awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 }' > $SET.csv
 fi
 
 ## get LaTeX wrappers from card-frame file
@@ -227,5 +129,5 @@ rm ./*.out
 rm ./*.tex
 rm ./*-cards.pdf
 
-
-#echo SET=$SET
+echo $PAPER
+echo $FILTER

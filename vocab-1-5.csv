@@ -129,7 +129,6 @@
 よう	用	Task	vocabulary	noun, suffix
 いきる	生きる	To Live	vocabulary	intransitive verb, ichidan verb
 じゅうまん	十万	One Hundred Thousand	vocabulary	numeral
-きょう	今日	Today	vocabulary	noun
 もと	元	Origin	vocabulary	noun, prefix
 はんぶん	半分	Half	vocabulary	noun
 わける	分ける	To Separate	vocabulary	transitive verb, ichidan verb
@@ -156,6 +155,7 @@
 いちまん	一万	Ten Thousand	vocabulary	numeral
 にまん	二万	Twenty Thousand	vocabulary	numeral
 いま	今	Now	vocabulary	noun
+きょう	今日	Today	vocabulary	noun
 こんげつ	今月	This Month	vocabulary	noun
 わかる	分かる	To Understand	vocabulary	intransitive verb, godan verb
 ふん	分	Minute	vocabulary	noun, prefix, suffix
@@ -191,10 +191,9 @@
 みぎて	右手	Right Hand	vocabulary	noun
 たりる	足りる	To Be Enough	vocabulary	intransitive verb, ichidan verb
 まず	先ず	First Of All	vocabulary	adverb
-せんせい	先生	Teacher	vocabulary	noun
 ねんない	年内	Within A Year	vocabulary	noun
 いちだい	一代	Lifetime	vocabulary	noun
-こおり	氷	Ice	vocabulary	noun
+せんせい	先生	Teacher	vocabulary	noun
 ねんじゅう	年中	Year Round	vocabulary	adverb, noun
 そうそう	早々	As Soon As	vocabulary	noun, suffix
 みかた	見方	Way Of Seeing	vocabulary	noun
@@ -202,6 +201,7 @@
 だいよう	代用	Substitution	vocabulary	noun, する verb, の adjective
 うつる	写る	To Be Photographed	vocabulary	intransitive verb, godan verb
 いちだ	一打	One Strike	vocabulary	noun
+こおり	氷	Ice	vocabulary	noun
 はつか	二十日	Twentieth Day	vocabulary	noun
 よんせん	四千	Four Thousand	vocabulary	numeral
 いし	石	Stone	vocabulary	noun
