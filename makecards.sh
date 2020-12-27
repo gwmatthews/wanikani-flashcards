@@ -34,14 +34,6 @@ while :; do
             usage    # Display a usage synopsis.
             exit
             ;;
-#        -f)       # Takes an option argument; ensure it has been specified.
-#            if [ "$2" ]; then
-#                FILENAME=$2
-#                shift
-#            else
-#                die 'ERROR: "-f" requires a file name.'
-#            fi
-#            ;;
         -p)
             if [ "$2" ]; then
                 PAPER=$2
@@ -72,9 +64,8 @@ while :; do
     shift
 done
 
-# if --file was provided, open it for writing, else duplicate stdout
+# 
 if [ "$FILENAME" ]; then
-    echo "$FILENAME"
     SET="${FILENAME%.[^.]*}"
 else
     FILENAME=$1
@@ -85,24 +76,14 @@ if [ "$PAPER" ]; then
     echo "$PAPER"
 else
     PAPER=letter
-    echo papersize $PAPER
 fi
 
 if [ "$ONLY" ]; then
-    echo "$ONLY"   
     SET="${FILENAME%.[^.]*}-$ONLY"
 else
     ONLY=all
-    echo print $ONLY
     SET="${FILENAME%.[^.]*}"
 fi
-
-
-echo The file is $FILENAME.
-echo The paper is $PAPER size.
-echo "Cards will be made for" $ONLY.
-echo The set will be named $SET
-
 
 ## set paper size
 
@@ -113,7 +94,6 @@ else
  sed -i -e 's/a4paper/letterpaper/' templates/cards
  sed -i -e 's/a4paper/letterpaper/' templates/remix
 fi
-
 
 ## filter by part of speech
 
@@ -228,4 +208,3 @@ rm ./*.tex
 rm ./*-cards.pdf
 
 
-#echo SET=$SET
