@@ -28,13 +28,11 @@ A LaTeX package and bash script for producing flashcard sets from .csv files gen
 - xelatex
 - standard Linux utilities such as sed, awk, grep
 - .csv files downloaded from Wanikani Item Insepector with the following settings
-	- tables > export > cell separator > comma
-	- tables > export > use of quotes > only when needed
 	- tables > export > exported column 1 > reading brief
 	- tables > export > exported column 2 > item
 	- tables > export > exported column 3 > meaning brief
 	- tables > export > exported column 4 > item type
-    - (OPTIONAL) tables > export > exported column 5 > reading by type on, kun -- if this is omitted, all reaadings will be rendered in hiragana
+    - (OPTIONAL) tables > export > exported column 5 > reading by type on, kun -- if this is omitted, all readings will be rendered in hiragana
     - (OPTIONAL) tables > export > exported column 5 > part of speech -- before running ./makecards.sh run verbs.sh like so: `./verbs.sh myfile.csv verbs` this will output `verbs.pdf`
 
 - NOTE: will now also work with tab, or semicolon separated cells, as well as with tables > export > use of quotes > always
@@ -42,7 +40,11 @@ A LaTeX package and bash script for producing flashcard sets from .csv files gen
 ## How to use
 
 - Copy .csv files to wanikani-flashcards directory and then run `./makecards.sh filename.csv`
-- For a4 paper run `./makecards.sh filename.csv a4`
+- For a4 paper run `./makecards.sh -p a4 filename.csv`
+- The following opitons require vocabulary items and Part of Speech as column 5:
+  - `./makecards.sh -o verbs filename.csv` prints only the ichidan and godan verbs
+  - `./makecards.sh -o nouns filename.csv` prints only the nouns
+  - `./makecards.sh -o adjectives filename.csv` prints only the adjectives
 
 ## Bug reports and contributions
 
