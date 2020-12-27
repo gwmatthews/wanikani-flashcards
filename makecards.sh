@@ -115,8 +115,8 @@ END=$(sed -n '9,11 p' < templates/card-frame)
 # sed -e 's_,_\t_g'                                              # replace commas with tabs
 # -e 's_;_\t_g'                                                  # replace semicolons with tabs
 # -e 's_"__g'                                                    # delete quotation marks
-# awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }'      # print up to 5 fields (reading, item, meaning, type, first of on/kun readings); if only 4 fields, all readings will be hiragana
-# sed -f templates/kana.sed                                           # check if first reading is onyomi -- if it is, replace hiragna with katakana
+# awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }'      # print up to 5 fields (reading, item, meaning, type, on/kun reading or part of speech)
+# sed -f templates/kana.sed                                      # check if first reading is onyomi -- if it is, replace hiragna with katakana
 # awk -F"\t" '{ print "{" $1 "}{" $2 "}{" $3 "}{" $4 "}" }'      # print first four fields wrapped in curly braces
 # sed -e 's_{radical}_{r}_'                                      # replace "radical" item type with "r" (handled by flashcards.sty)
 # -e 's_{Unavailable}_{radical}_'                                # replace "Unavailable" in reading field with radical
