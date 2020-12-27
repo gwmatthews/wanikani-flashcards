@@ -7,13 +7,13 @@ die() {
 
 usage() {
 
-echo Basic use "$0 <filename>"
-echo For a4 paper "$0 -p a4 <filename>"
-echo For only verbs "$0 -o verbs <filename>"
-echo For only nouns "$0 -o nouns <filename>"
-echo For only adjectives "$0 -o adjectives <filename>"
-echo part of speech can be combined with papersize "$0 -o verbs -p a4 <filename>" 
-
+    echo Basic use "$0 <filename>"
+    echo For a4 paper "$0 -p a4 <filename>"
+    echo For only verbs "$0 -o verbs <filename>"
+    echo For only nouns "$0 -o nouns <filename>"
+    echo For only adjectives "$0 -o adjectives <filename>"
+    echo part of speech can be combined with papersize "$0 -o verbs -p a4 <filename>" 
+    echo "$0 -h -? or --help" print this message.
 }
 
 
@@ -22,8 +22,7 @@ if [ $# -lt 1 ]; then
 	  	exit 1 # error
 fi
 
-# Initialize all the option variables.
-# This ensures we are not contaminated by variables from the environment.
+# Declare variables
 FILENAME=
 PAPER=
 ONLY=
@@ -64,13 +63,12 @@ while :; do
     shift
 done
 
-# 
-if [ "$FILENAME" ]; then
-    SET="${FILENAME%.[^.]*}"
-else
-    FILENAME=$1
-    SET="${FILENAME%.[^.]*}"
-fi
+# Assigned here to enable optional flag cases to work.
+
+FILENAME=$1
+SET="${FILENAME%.[^.]*}"
+
+# Use options if found, otherwise set default values.
 
 if [ "$PAPER" ]; then
     echo "$PAPER"
