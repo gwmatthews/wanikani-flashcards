@@ -32,7 +32,7 @@ A LaTeX package and bash script for producing flashcard sets from .csv files gen
 ### How to use
 
 - Download csv file from Item Inspector with these settings:
-  - **Tables tab** > Table list - pick "Leeches" for your leeches, "Previous Level SRS" works for anything else with the right filters -- choosing all SRS levels including "locked" enables you to get things even from levels you have only dimly imagined.
+  - **Tables tab** > Table list - pick "Leeches" for your leeches, for other sets of flashcards, you can create a new table, such as "Flashcards Kanji" or "Flashcards vocabulary" so you can customize them without messing up the default tables in Item Inspector. Try different settings and seee what you get. The most important thing is which data you export and in which order. Keep reading for details.
   - **Export tab** -- any cell separator and use of quotes should work.
   - **Export tab** > exported columns:
     - column 1: Reading Brief
@@ -42,7 +42,7 @@ A LaTeX package and bash script for producing flashcard sets from .csv files gen
     - OPTIONAL column 5: Reading by Type (on kun) OR Part of Speech 
   - **Filters tab:** choose radicals, kanji and/or vocabulary as you like, filter as you like by level (including ranges like 12-18), SRS stage or whatever. (Radicals that are on WK as images remain blank on the front of the card, but the backs still have meanings, you can draw these radicals on the front and these cards won't mess things up otherwise.)
 
-(You could add both Reading by Type and Part of Speech as columns 5 and 6 but since one is used for getting the readings of kanji only and the other is used for selective printing of vocabulary items only, you probably won't need both together ever.)
+(You could conceivably have both Reading by Type and Part of Speech as columns 5 and 6 but since one is used for getting the readings of kanji only and the other is used for selective printing of vocabulary items only, you probably won't need both together ever.)
 
 - **Usage examples**
   - `./makecards.sh myfile.csv` produces flashcards of all contents of the csv file. If you want kanji cards with katakana for on readings, you need column 5 set to Reading by Type (on kun). If this column is left blank all readings are printed in hiragana.
