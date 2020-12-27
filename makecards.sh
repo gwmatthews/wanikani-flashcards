@@ -204,5 +204,8 @@ rm ./*.log
 rm ./*.out
 rm ./*.tex
 rm ./*-cards.pdf
+rm ./*-adjectives.csv
+rm ./*-nouns.csv
+rm ./*-verbs.csv
 
 
