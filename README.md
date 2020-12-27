@@ -27,24 +27,27 @@ A LaTeX package and bash script for producing flashcard sets from .csv files gen
   - pdfpages
 - xelatex
 - standard Linux utilities such as sed, awk, grep
-- .csv files downloaded from Wanikani Item Insepector with the following settings
-	- tables > export > exported column 1 > reading brief
-	- tables > export > exported column 2 > item
-	- tables > export > exported column 3 > meaning brief
-	- tables > export > exported column 4 > item type
-    - (OPTIONAL) tables > export > exported column 5 > reading by type on, kun -- if this is omitted, all readings will be rendered in hiragana
-    - (OPTIONAL) tables > export > exported column 5 > part of speech -- before running ./makecards.sh run verbs.sh like so: `./verbs.sh myfile.csv verbs` this will output `verbs.pdf`
 
-- NOTE: will now also work with tab, or semicolon separated cells, as well as with tables > export > use of quotes > always
+### How to use
 
-## How to use
+- Download csv file from Item Inspector with these settings:
+  - **Tables tab** > Table list - pick "Leeches" for your leeches, "Previous Level SRS" works for anything else with the right filters -- choosing all SRS levels including "locked" enables you to get things even from levels you have only dimly imagined.
+  - **Export tab** -- any cell separator and use of quotes should work.
+  - **Export tab** > exported columns:
+    - column 1: Reading Brief
+    - column 2: Item
+    - column 3: Meaning Brief
+    - column 4: Item Type
+    - OPTIONAL column 5: Reading by Type (on kun) OR Part of Speech 
+  - **Filters tab:** choose radicals, kanji and/or vocabulary as you like, filter as you like by level (including ranges like 12-18), SRS stage or whatever. (Radicals that are on WK as images remain blank on the front of the card, but the backs still have meanings, you can draw these radicals on the front and these cards won't mess things up otherwise.)
 
-- Copy .csv files to wanikani-flashcards directory and then run `./makecards.sh filename.csv`
-- For a4 paper run `./makecards.sh -p a4 filename.csv`
-- The following opitons require vocabulary items and Part of Speech as column 5:
-  - `./makecards.sh -o verbs filename.csv` prints only the ichidan and godan verbs
-  - `./makecards.sh -o nouns filename.csv` prints only the nouns
-  - `./makecards.sh -o adjectives filename.csv` prints only the adjectives
+(You could add both Reading by Type and Part of Speech as columns 5 and 6 but since one is used for getting the readings of kanji only and the other is used for selective printing of vocabulary items only, you probably won't need both together ever.)
+
+- **Usage examples**
+  - `./makecards.sh myfile.csv` produces flashcards of all contents of the csv file. If you want kanji cards with katakana for on readings, you need column 5 set to Reading by Type (on kun). If this column is left blank all readings are printed in hiragana.
+  - `./makecards.sh -p a4 myfile.csv` prints your cards on a4 paper size as `myfile-a4.pdf`.
+  - `./makecards.sh -o verbs myfile.csv` prints cards of only godan and ichidan verbs, provided that you have column 5 set to Part of Speech, as `myfile-verbs.pdf`.
+  - `./makecards.sh -o adjectives -p a4 myfile.csv` prints all adjectives from your file as `myfile-adjectives-a4.pdf` on a4 paper. You can also get only nouns with `-o nouns` -- you can't get BOTH nouns and adjectives though. One set at a time.
 
 ## Bug reports and contributions
 
