@@ -94,7 +94,7 @@ There is a lot of vocabulary to learn in studying a new language for the obvious
 
 #### Filtered Vocabulary
 
-Another proof of concept -- to filter vocabulary by grammatical terms, in this case printing only the godan and ichidan verbs from levels 1 to 10. Verbs are hard to remember and distinguish from each other for me. To rise or to raise, that is the question.
+Another proof of concept -- to filter vocabulary by grammatical terms, in this case printing only the godan and ichidan verbs from levels 1 to 15. Verbs are hard to remember and distinguish from each other for me. To rise or to raise, that is the question.
 
 - [vocabulary 1-15 verbs](vocab-1-15-verbs.pdf)
 - [vocabulary 1-15 verbs a4 paper ](vocab-1-15-verbs-a4.pdf)

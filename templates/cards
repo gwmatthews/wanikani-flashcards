@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[letterpaper]{article}
 \usepackage[textwidth=21.5cm, textheight=25.9cm, left=1mm]{geometry}
 \usepackage{flashcards}
 \setCJKmainfont{ipag.ttf}
