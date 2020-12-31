@@ -7,6 +7,7 @@
 \usepackage{anyfontsize}
 \usepackage{hyperref}
 \usepackage[most]{tcolorbox}
+
 \tcbuselibrary{skins}
 %\usepackage{cclicenses}
 \usepackage{etoolbox}
@@ -30,15 +31,29 @@
 %%% NEW COMMANDS
 
 \newcommand{\kanji}{\centering\fontsize{60}{60}}   %%% set main font size 
-\newcommand{\redkanji}{\centering\fontsize{40}{40}\color{gray}}   %%% set main font size 
+\newcommand{\graykanji}{\centering\fontsize{40}{40}\color{gray}}   %%% set main font size 
 \newcommand{\smallkanji}{\centering\fontsize{22}{22}}   %%% set main font size 
-\newcommand{\iskanji}[1]{\ifstrequal{#1}{k}{\kanji}{\ifstrequal{#1}{r}\redkanji}{\smallkanji}}
-%\newcommand{\isradical}[1]{\ifstrequal{#1}{r}{\redkanji}{\smallkanji}}
+\newcommand{\iskanji}[1]{\ifstrequal{#1}{k}{\kanji}{\ifstrequal{#1}{r}\graykanji}{\smallkanji}}
 \newcommand{\means}{\tcblower\centering}                %%% position lower text
 
 %%% For styling flashcards
 
-\newcommand{\flashset}{\tcbset{enhanced, segmentation hidden, frame hidden, borderline south={0.5pt}{-6.5pt}{black}, borderline north={0.5pt}{0pt}{black}}}
+\newcommand{\flashsetfront}{\tcbset{
+enhanced, 
+segmentation hidden, 
+frame hidden, 
+borderline south={0.5pt}{-6.5pt}{gray, loosely dashed}, 
+borderline north={0.5pt}{0pt}{gray, loosely dashed},
+borderline east={0.5pt}{-2mm}{gray, loosely dashed}
+}
+}
+
+\newcommand{\flashsetback}{\tcbset{
+enhanced, 
+segmentation hidden, 
+frame hidden
+}
+}
 
 \newCJKfontfamily\ipag{ipag.ttf}
 
@@ -65,7 +80,7 @@
 %%% display reading, kanji and meaning, use type to resize kanji
 \newcommand{\flashFront}[4]
 {
-	\flashset\hfuzz=99pt
+	\flashsetfront\hfuzz=99pt
 	\begin{flashbox}[coltitle=white, collower=white, colbacktitle= white]{#1}
 		\iskanji{#4} #2
 
@@ -77,7 +92,7 @@
 %%% display kanji and reading
 \newcommand{\flashBack}[4]
 {
-	\flashset\hfuzz=99pt
+	\flashsetback\hfuzz=99pt
 	\begin{flashbox}[coltitle=black!30, collower=gray, colupper=white, toptitle=2cm, middle=0mm, bottom=1cm, right=0mm, left=0mm]{#1}
 		\smallkanji #2 
 		\means #3

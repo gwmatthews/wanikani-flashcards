@@ -1,0 +1,7 @@
+name: "WaniKani Flashcards"
+output_dir: "."
+navbar:
+  title: "ワニカニ"
+output:
+  html_document:
+    theme: simplex

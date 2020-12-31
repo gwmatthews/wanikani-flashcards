@@ -1,0 +1,77 @@
+---
+title: "WaniKani Flashcards"
+--- 
+
+#### Kanji
+
+- [kanji 1-10](kanji-1-10.pdf)
+- [kanji 1-10 a4 paper ](kanji-1-10-a4.pdf)
+- [kanji 11-20](kanji-11-20.pdf)
+- [kanji 11-20 a4 paper ](kanji-11-20-a4.pdf)
+- [kanji 21-30](kanji-21-30.pdf)
+- [kanji 21-30 a4 paper ](kanji-21-30-a4.pdf)
+- [kanji 31-40](kanji-31-40.pdf)
+- [kanji 31-40 a4 paper ](kanji-31-40-a4.pdf)
+- [kanji 41-50](kanji-41-50.pdf)
+- [kanji 41-50 a4 paper ](kanji-41-50-a4.pdf)
+- [kanji 51-60](kanji-51-60.pdf)
+- [kanji 51-60 a4 paper ](kanji-51-60-a4.pdf)
+
+#### Leeches
+
+- [leeches](leeches.pdf)
+- [leeches a4 paper ](leeches-a4.pdf)
+
+#### Radicals
+
+- [radicals 1-10](radicals-1-10.pdf)
+- [radicals 1-10 a4 paper ](radicals-1-10-a4.pdf)
+
+#### Vocabulary
+
+- [vocabulary 2](vocab-2.pdf)
+- [vocabulary 2 a4 paper ](vocab-2-a4.pdf)
+- [vocabulary 3](vocab-3.pdf)
+- [vocabulary 3 a4 paper ](vocab-3-a4.pdf)
+- [vocabulary 4](vocab-4.pdf)
+- [vocabulary 4 a4 paper ](vocab-4-a4.pdf)
+- [vocabulary 5](vocab-5.pdf)
+- [vocabulary 5 a4 paper ](vocab-5-a4.pdf)
+- [vocabulary 6](vocab-6.pdf)
+- [vocabulary 6 a4 paper ](vocab-6-a4.pdf)
+- [vocabulary 7](vocab-7.pdf)
+- [vocabulary 7 a4 paper ](vocab-7-a4.pdf)
+- [vocabulary 8](vocab-8.pdf)
+- [vocabulary 8 a4 paper ](vocab-8-a4.pdf)
+- [vocabulary 9](vocab-9.pdf)
+- [vocabulary 9 a4 paper ](vocab-9-a4.pdf)
+- [vocabulary 1](vocab-1.pdf)
+- [vocabulary 1 a4 paper ](vocab-1-a4.pdf)
+- [vocabulary 10](vocab-10.pdf)
+- [vocabulary 10 a4 paper ](vocab-10-a4.pdf)
+- [vocabulary 11](vocab-11.pdf)
+- [vocabulary 11 a4 paper ](vocab-11-a4.pdf)
+- [vocabulary 12](vocab-12.pdf)
+- [vocabulary 12 a4 paper ](vocab-12-a4.pdf)
+- [vocabulary 13](vocab-13.pdf)
+- [vocabulary 13 a4 paper ](vocab-13-a4.pdf)
+- [vocabulary 14](vocab-14.pdf)
+- [vocabulary 14 a4 paper ](vocab-14-a4.pdf)
+- [vocabulary 15](vocab-15.pdf)
+- [vocabulary 15 a4 paper ](vocab-15-a4.pdf)
+- [vocabulary 16](vocab-16.pdf)
+- [vocabulary 16 a4 paper ](vocab-16-a4.pdf)
+- [vocabulary 17](vocab-17.pdf)
+- [vocabulary 17 a4 paper ](vocab-17-a4.pdf)
+- [vocabulary 18](vocab-18.pdf)
+- [vocabulary 18 a4 paper ](vocab-18-a4.pdf)
+- [vocabulary 19](vocab-19.pdf)
+- [vocabulary 19 a4 paper ](vocab-19-a4.pdf)
+- [vocabulary 20](vocab-20.pdf)
+- [vocabulary 20 a4 paper ](vocab-20-a4.pdf)
+
+#### Filtered Vocabulary
+
+- [vocabulary 1-15 verbs](vocab-1-15-verbs.pdf)
+- [vocabulary 1-15 verbs a4 paper ](vocab-1-15-verbs-a4.pdf)
+

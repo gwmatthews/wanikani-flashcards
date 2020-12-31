@@ -1,0 +1,30 @@
+\documentclass[letterpaper]{article}
+%\usepackage[top=1cm, bottom=1cm, left=3mm, right=3mm]{geometry}
+\usepackage[textwidth=20.1cm,textheight=25cm]{geometry}
+\usepackage[center,dvips,frame]{crop}
+%\usepackage{sutras}
+\usepackage{flashcards}
+\setCJKmainfont{ipag.ttf}
+%\setCJKmainfont{KanjiStrokeOrders}
+\setCJKsansfont{ipag.ttf}
+
+%%%%%%%
+%%%%%% END PREAMBLE
+%%%%%%%
+
+\setlength{\columnsep}{0mm}
+%\setlength{\columnsep}{1cm}
+%\setlength{\columnseprule}{0.5pt}
+
+
+\begin{document}
+%\centering\fontsize{20}{20}	
+%
+\input{\jobname-front.tex}%
+%
+%\pagebreak\setlength{\columnseprule}{0pt}%
+%
+\input{\jobname-back.tex}
+%
+\pagebreak
+\end{document} 

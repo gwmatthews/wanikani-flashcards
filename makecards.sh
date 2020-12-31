@@ -23,6 +23,7 @@ if [ $# -lt 1 ]; then
 fi
 
 # Declare variables
+
 FILENAME=
 PAPER=
 ONLY=
@@ -109,33 +110,78 @@ BEGINFRONT=$(sed -n '2,4 p' < templates/card-frame)
 BEGINBACK=$(sed -n '5,8 p' < templates/card-frame)
 END=$(sed -n '9,11 p' < templates/card-frame)
 
+# define text processing steps
+# replace commas and semicolons with tabs, delete quotes
 
-### WHAT DOES THE TANGLE OF CODE BELOW DO?
+parse() {
+ sed -e 's_,_\t_g'  -e 's_;_\t_g' -e 's_"__g'
+}
 
-# sed -e 's_,_\t_g'                                              # replace commas with tabs
-# -e 's_;_\t_g'                                                  # replace semicolons with tabs
-# -e 's_"__g'                                                    # delete quotation marks
-# awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }'      # print up to 5 fields (reading, item, meaning, type, on/kun reading or part of speech)
-# sed -f templates/kana.sed                                      # check if first reading is onyomi -- if it is, replace hiragna with katakana
-# awk -F"\t" '{ print "{" $1 "}{" $2 "}{" $3 "}{" $4 "}" }'      # print first four fields wrapped in curly braces
-# sed -e 's_{radical}_{r}_'                                      # replace "radical" item type with "r" (handled by flashcards.sty)
-# -e 's_{Unavailable}_{radical}_'                                # replace "Unavailable" in reading field with radical
-# -e 's_{vocabulary}_{}_'                                        # remove "vocabulary" item type with empty field (for defaault format)
-# -e 's_{kanji}_{k}_'                                            # replace "kanji" with "k" (handled by flashcards.sty)
-# -e 's_}{[a-z]*}{_}{}{_'                                        # remove any written descriptions of radicals
-# -e 's_咅__'                                                    # remove placeholder for radical images
-# -e 's/{/\\flashFront{/'                                        # FRONT ONLY add front LaTeX code
-# -e 's/{/\\flashBack{/'                                         # BACK ONLY add back LaTeX code
-# sed -f templates/spacing.sed                                   # divide up file into 15 line chunks with LaTeX in between chunks
-# sed '/3/ a\\\RLmulticolcolumns'                                # FRONT ONLY add LaTeX for Right to Left columns
-# sed '/3/ a\\\LRmulticolcolumns'                                # BACK ONLY add LaTeX for Left to Right columns
+# print up to 5 fields (reading, item, meaning, type, on/kun reading or part of speech)
 
+getfields() {                                                    
+ awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }'      
+}
+
+# check if first reading is onyomi -- if it is, replace hiragna with katakana
+
+katakana() {
+ sed -f templates/kana.sed
+}
+
+# print first four fields wrapped in curly braces
+
+addbraces() {
+ awk -F"\t" '{ print "{" $1 "}{" $2 "}{" $3 "}{" $4 "}" }'
+}
+
+# process item types 
+## flag radical items for later reformatting
+## remove "Unavailable" from reading
+## remove written descriptions of radicals
+## remove placeholder for radical images
+## remove vocabulary type (for default formatting)
+## add flag for kanji type
+
+itemtypes() {
+ sed -e 's_{radical}_{r}_' -e 's_{Unavailable}_{radical}_' -e 's_咅__' -e 's_}{[a-z]*}{_}{}{_'  -e 's_{vocabulary}_{}_' -e 's_{kanji}_{k}_'
+}
+
+# add LaTeX command for front of cards -e 's_咅_ _'
+
+front() {
+ sed -e 's/{/\\flashFront{/'
+}
+
+# add LaTeX command for back of cards
+
+back() {
+sed -e 's/{/\\flashBack{/'
+}
+
+# divide up file into 15 line chunks with LaTeX in between chunks
+
+splitfile() {
+ sed -f templates/spacing.sed
+}
+
+# add LaTeX to set column order of front to right to left
+
+frontcols() {
+ sed '/3/ a\\\RLmulticolcolumns'
+}
+
+# add LaTeX to set column order of back to left to right
+
+backcols() {
+ sed '/3/ a\\\LRmulticolcolumns'
+}
 
 ## build front and back of cards
 
-FRONT=$(cat $SET.csv | sed -e 's_,_\t_g'  -e 's_;_\t_g' -e 's_"__g' | awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }' | sed -f templates/kana.sed | awk -F"\t" '{ print "{" $1 "}{" $2 "}{" $3 "}{" $4 "}" }' | sed -e 's_{radical}_{r}_' -e 's_{Unavailable}_{radical}_' -e 's_{vocabulary}_{}_' -e 's_{kanji}_{k}_' -e 's_}{[a-z]*}{_}{}{_' -e 's_咅__'  -e 's/{/\\flashFront{/' |  sed -f templates/spacing.sed | sed '/3/ a\\\RLmulticolcolumns')
+FRONT=$(cat $SET.csv | parse | getfields | addbraces | itemtypes | front | splitfile | frontcols )
 
-BACK=$(cat $SET.csv | sed -e 's_,_\t_g'  -e 's_;_\t_g' -e 's_"__g' | awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }' | sed -f templates/kana.sed | awk -F"\t" '{ print "{" $1 "}{" $2 "}{" $3 "}{" $4 "}" }' | sed -e 's_{radical}_{r}_' -e 's_{Unavailable}_{radical}_' -e 's_{vocabulary}_{}_' -e 's_{kanji}_{k}_' -e 's_}{[a-z]*}{_}{}{_' -e 's_咅__'  -e 's/{/\\flashBack{/' |  sed -f templates/spacing.sed | sed '/3/ a\\\LRmulticolcolumns')
+BACK=$(cat $SET.csv | parse | getfields | katakana | addbraces | itemtypes | back | splitfile | backcols )
 
 ## add front and back of card LaTeX wrappers
 
