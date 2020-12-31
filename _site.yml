@@ -1,7 +1,13 @@
 name: "WaniKani Flashcards"
 output_dir: "."
 navbar:
-  title: "ワニカニ"
+  title: "フラッシュ・カード"
+  left:
+    - text: "鰐蟹グッズ"
+      href: https://gwmatthews.github.io/wanikani.html
+    - text: "手習い"
+      href: https://gwmatthews.github.io/wanikani-writing/
 output:
   html_document:
     theme: simplex
+    css: my-style.css

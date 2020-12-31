@@ -1,0 +1,80 @@
+img[alt="medium-photo"] {
+  border: 5px solid gray;
+  border-radius: 5px;
+  box-shadow: 4px 4px 3px #111;
+}
+
+.photo-box {
+  padding: 5px;
+  max-width: 90%;
+}
+
+.photo-credit {
+  font-size: small;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  color: #999;
+  
+}
+
+h1.title{
+  padding: 20px;
+  font-size: x-large;
+  color: #aaa;
+  text-shadow: 2px 2px 4px black;
+}
+
+body {
+  background-color: #222;
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #C16DCA;
+}
+
+a:hover {
+  color: #cf8fdf;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+hr {
+  width: 80%;
+  margin: 40px auto;
+  border-top: 2px dotted #333;
+}
+
+.section h2 {
+  font-size: x-large;
+  color: #999;
+  text-shadow: 2px 2px 4px black;
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: small;
+}
+
+footer img {
+  max-height: 28px;
+  padding-bottom: 5px;
+}
+  
+.navbar-header {
+  color: #222;
+}
+
+@media (min-width: 800px){
+.widget {
+  padding: 20px 25%;
+  margin-top: 3rem;
+}
+}
