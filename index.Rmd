@@ -2,7 +2,15 @@
 title: "WaniKani Flashcards"
 --- 
 
+Some of these may be genuinely useful in your studies, others are here for illustrations of the possibilities (and perhaps also my current abilities as an amateur programmer). Each file linked to below contains printable pdf files that contain 15 cards per page, which can be printed two-sided and cut up to make sets of roughly business card-sized flashcards. Please read the instructions [in the repository](https://github.com/gwmatthews/wanikani-flashcards/) if you'd like to make your own sets of cards or improve the code. 
+
+Oh and if you don't know what [Wanikani](https://www.wanikani.com/) is, it is an online Structured Repetition System for learning the Japanese kanji. It's quite good in my view (and I am not getting paid to say so and your mileage may vary) and has been extended by many talented programmers with many additional functions and features, including the ability to download all sorts of data as csv files. I relied on [Item Inspector](https://github.com/rouleaup88/item-inspector) by rouleaup88 to do this. You do have to pay for a subscription to get past the third level and while I am currently using it, and this site is mostly intended as a resource for those currently using it, others learning Japanese might hopefully find these cards useful too. The kanji covered by WK are presented in an order that is a bit different than other standard presentations, but it has a logic behind it and seems to work. There are many different ways to approach learning more than 2000 distinct written characters, after all.
+
+***
+
 #### Kanji
+
+Sets of all of the Wanikani kanji arranged in batches of 10 levels for US letter and a4 sized paper.
 
 - [kanji 1-10](kanji-1-10.pdf)
 - [kanji 1-10 a4 paper ](kanji-1-10-a4.pdf)
@@ -17,18 +25,32 @@ title: "WaniKani Flashcards"
 - [kanji 51-60](kanji-51-60.pdf)
 - [kanji 51-60 a4 paper ](kanji-51-60-a4.pdf)
 
+***
+
 #### Leeches
+
+These are sets of cards of my recent leeches -- those words and kanji that just don't seem to stick. You can build your own sets if you run linux and have the right $LaTeX$ packages installed. See the [documentation](https://github.com/gwmatthews/wanikani-flashcards/blob/main/README.md) for how to.
 
 - [leeches](leeches.pdf)
 - [leeches a4 paper ](leeches-a4.pdf)
 
+***
+
 #### Radicals
+
+Somewhat experimental, since many radicals used by WK are not represented as text characters, but as images, since they are idiosyncratic ones. Those appear as blank on one side. This was more a proof of concept to see if I could get radicals to work. They mostly do, and the ones that don't work can be either hand drawn, or just, you know, memorized so they won't remain in your leech pile.
 
 - [radicals 1-10](radicals-1-10.pdf)
 - [radicals 1-10 a4 paper ](radicals-1-10-a4.pdf)
 
+***
+
 #### Vocabulary
 
+There is a lot of vocabulary to learn in studying a new language for the obvious reason that us humans are good at saying many things and the same thing in many different ways. Each of the 60 levels of Wanikani can have from 50 to more than 100 vocabulary items to learn, which is very useful for learning the many ways the same characters are often pronounced and the many characters that are often pronounced the same way! I have managed to download csv files for the first 20 levels to make flashcards of them. The extent that this list grows will show the extent to which I am making progress in my Japanese studies! I am currently almost at level 15 but for the wall of vocabulary to learn to get there.
+
+- [vocabulary 1](vocab-1.pdf)
+- [vocabulary 1 a4 paper ](vocab-1-a4.pdf)
 - [vocabulary 2](vocab-2.pdf)
 - [vocabulary 2 a4 paper ](vocab-2-a4.pdf)
 - [vocabulary 3](vocab-3.pdf)
@@ -45,8 +67,6 @@ title: "WaniKani Flashcards"
 - [vocabulary 8 a4 paper ](vocab-8-a4.pdf)
 - [vocabulary 9](vocab-9.pdf)
 - [vocabulary 9 a4 paper ](vocab-9-a4.pdf)
-- [vocabulary 1](vocab-1.pdf)
-- [vocabulary 1 a4 paper ](vocab-1-a4.pdf)
 - [vocabulary 10](vocab-10.pdf)
 - [vocabulary 10 a4 paper ](vocab-10-a4.pdf)
 - [vocabulary 11](vocab-11.pdf)
@@ -70,7 +90,11 @@ title: "WaniKani Flashcards"
 - [vocabulary 20](vocab-20.pdf)
 - [vocabulary 20 a4 paper ](vocab-20-a4.pdf)
 
+***
+
 #### Filtered Vocabulary
+
+Another proof of concept -- to filter vocabulary by grammatical terms, in this case printing only the godan and ichidan verbs from levels 1 to 10. Verbs are hard to remember and distinguish from each other for me. To rise or to raise, that is the question.
 
 - [vocabulary 1-15 verbs](vocab-1-15-verbs.pdf)
 - [vocabulary 1-15 verbs a4 paper ](vocab-1-15-verbs-a4.pdf)
