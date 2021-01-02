@@ -9,7 +9,7 @@ usage() {
 
     echo Basic use "$0 <filename>"
     echo For a4 paper "$0 -p a4 <filename>"
-    echo For particular level "$0 -l 32 <filename>" (Maybe buggy with file names different than the ones I used. Needs work, in other words.)
+    echo For particular level "$0 -l 32 <filename>" Maybe buggy with file names different than the ones I used. Needs work, in other words.
     echo For only verbs "$0 -o verbs <filename>"
     echo For only nouns "$0 -o nouns <filename>"
     echo For only adjectives "$0 -o adjectives <filename>"
