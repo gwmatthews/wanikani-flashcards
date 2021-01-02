@@ -1,4 +1,4 @@
-\documentclass[letterpaper]{article}
+\documentclass[a4paper]{article}
 \usepackage[textwidth=19.8cm, textheight=25.9cm]{geometry}
 %\usepackage[top=1cm, bottom=1cm, left=3mm, right=3mm]{geometry}
 \usepackage{pdfpages}

@@ -33,7 +33,7 @@
 
 \newcommand{\kanji}{\centering\fontsize{60}{60}}   %%% set main font size 
 \newcommand{\graykanji}{\centering\fontsize{40}{40}\color{gray}}   %%% set main font size 
-\newcommand{\smallkanji}{\centering\fontsize{22}{22}}   %%% set main font size 
+\newcommand{\smallkanji}{\centering\fontsize{26}{26}}   %%% set main font size 
 \newcommand{\iskanji}[1]{\ifstrequal{#1}{k}{\kanji}{\ifstrequal{#1}{r}\graykanji}{\smallkanji}}
 \newcommand{\means}{\tcblower\centering}                %%% position lower text
 
@@ -100,7 +100,7 @@ borderline vertical={0.5pt}{0pt}{gray, loosely dashed}
 \newcommand{\flashBack}[5]
 {
 	\flashsetback\hfuzz=99pt
-	\begin{flashbox}[coltitle=black!30, collower=gray, colupper=white, toptitle=2cm, middle=0mm, bottom=1cm, right=0mm, left=0mm, finish={\node [gray] at (frame.south east)[xshift=-6mm, yshift=4mm]{#4};}]{#1}
+	\begin{flashbox}[coltitle=black!60, collower=black!60, colupper=white, toptitle=2cm, middle=0mm, bottom=1cm, right=0mm, left=0mm, finish={\node [gray] at (frame.south east)[xshift=-6mm, yshift=4mm]{#4};}]{#1}
 		\smallkanji #2 
 		\means #3
 	\end{flashbox}

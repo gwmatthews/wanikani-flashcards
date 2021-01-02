@@ -82,7 +82,9 @@ FILENAME=$1
 
 if [ $LEVEL ]; then
  FILTERED=$(echo $FILENAME | sed "s/-.*/-$LEVEL.csv/")
- cat $FILENAME | sed -n "/$LEVEL/p" > $FILTERED
+# cat $FILENAME | sed -n "/$LEVEL/p" > $FILTERED
+ cat $FILENAME | awk -F"\t" -v a="$LEVEL" '$4==a' > $FILTERED 
+
  FILENAME=$FILTERED
 fi
 
@@ -144,7 +146,7 @@ parse() {
  sed -e 's_,_\t_g'  -e 's_;_\t_g' -e 's_"__g'
 }
 
-# print up to 5 fields (reading, item, meaning, type, on/kun reading or part of speech)
+# print up to 6 fields (reading, item, meaning, type, on/kun reading or part of speech)
 
 getfields() {                                                    
  awk -F"\t" '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 "\t" $6 }'      
