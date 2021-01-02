@@ -1,0 +1,112 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{flashcards}[Flashcards Package]
+
+\RequirePackage{xeCJK}
+\usepackage{nopageno}
+\usepackage{multicol}
+\usepackage{anyfontsize}
+\usepackage{hyperref}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+
+\tcbuselibrary{skins}
+%\usepackage{cclicenses}
+\usepackage{etoolbox}
+
+\hypersetup {
+	pdfauthor= George Matthews,
+	pdftitle={Wanikani flashcards},
+	pdfsubject={kanji},
+	pdfkeywords={kanji, japan, wanikani},
+	colorlinks=true,
+	linkcolor=black,
+	anchorcolor=black,
+	citecolor=black,
+	filecolor=black,
+	menucolor=black,
+	runcolor=black,
+	urlcolor=black,
+	bookmarks=true
+}
+
+%%% NEW COMMANDS
+
+\newcommand{\kanji}{\centering\fontsize{60}{60}}   %%% set main font size 
+\newcommand{\graykanji}{\centering\fontsize{40}{40}\color{gray}}   %%% set main font size 
+\newcommand{\smallkanji}{\centering\fontsize{22}{22}}   %%% set main font size 
+\newcommand{\iskanji}[1]{\ifstrequal{#1}{k}{\kanji}{\ifstrequal{#1}{r}\graykanji}{\smallkanji}}
+\newcommand{\means}{\tcblower\centering}                %%% position lower text
+
+%%% For styling flashcards
+
+\newcommand{\flashsetfront}{\tcbset{
+enhanced, 
+segmentation hidden, 
+frame hidden,
+%borderline vertical={0.5pt}{0pt}{gray, loosely dotted},
+%borderline horizontal={0.5pt}{0pt}{gray, loosely dotted}
+borderline south={0.5pt}{-6.5pt}{gray, loosely dashed}, 
+borderline north={0.5pt}{0pt}{gray, loosely dashed},
+borderline vertical={0.5pt}{0pt}{gray, loosely dashed}
+%borderline west={0.5pt}{0pt}{red}
+}
+}
+
+\newcommand{\flashsetback}{\tcbset{
+enhanced, 
+segmentation hidden, 
+frame hidden,
+borderline south={0.5pt}{-6.5pt}{gray, loosely dashed}, 
+borderline north={0.5pt}{0pt}{gray, loosely dashed},
+borderline vertical={0.5pt}{0pt}{gray, loosely dashed}
+}
+}
+
+\newCJKfontfamily\ipag{ipag.ttf}
+
+%%%%%%%%%%%%%%
+% FIXED HEIGHT BOX FOR FLASHCARDS
+% #1: tcolorbox options
+% #2: box title
+
+\newtcolorbox{flashbox}[2][]
+{    
+	height = 4.8cm,
+	width = 6.6cm,
+	toptitle=0.6cm,
+	colback  = white,
+	colbacktitle = white,
+	halign title= center,
+	halign=center,
+	fontlower= \fontsize{11}{11},
+	fonttitle= \ipag\fontsize{18}{18}, 
+	title    = {#2},
+	#1,
+}
+
+%%% display reading, kanji and meaning, use type to resize kanji
+\newcommand{\flashFront}[5]
+{
+	\flashsetfront\hfuzz=99pt
+	\begin{flashbox}[coltitle=white, collower=white, colbacktitle= white]{#1}
+		\iskanji{#5} #2
+
+        \means #3 
+	\end{flashbox}
+}
+%%%%%%%%%%%%%%%%
+
+%%% display kanji and reading
+\newcommand{\flashBack}[5]
+{
+	\flashsetback\hfuzz=99pt
+	\begin{flashbox}[coltitle=black!30, collower=gray, colupper=white, toptitle=2cm, middle=0mm, bottom=1cm, right=0mm, left=0mm, finish={\node [gray] at (frame.south east)[xshift=-6mm, yshift=4mm]{#4};}]{#1}
+		\smallkanji #2 
+		\means #3
+	\end{flashbox}
+}
+%%%%%%%%%%%%%%%%
+
+
+
+\endinput

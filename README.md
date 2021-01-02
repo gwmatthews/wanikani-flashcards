@@ -11,6 +11,7 @@ A LaTeX package and bash script for producing flashcard sets from .csv files gen
 - For all readings in hiragana, download csv files with only 4 fields -- see below.
 - Radicals are rendered in light gray larger characters. Some non-standard radicals on Wanikani are images, and those will end up with blank card fronts -- you have to draw those yourself :P
 - Backs of cards are printed in lighter color which makes less likely that you will see through the card when printed on ordinary paper.
+- NEW: backs of cards now have each item's level number in the corner.
 
 
 ## Requirements
@@ -38,17 +39,17 @@ A LaTeX package and bash script for producing flashcard sets from .csv files gen
     - column 1: Reading Brief
     - column 2: Item
     - column 3: Meaning Brief
-    - column 4: Item Type
-    - OPTIONAL column 5: Reading by Type (on kun) OR Part of Speech 
+    - coulmn 4: Level
+    - column 5: Item Type
+    - OPTIONAL column 6: Reading by Type (on kun) OR Part of Speech 
   - **Filters tab:** choose radicals, kanji and/or vocabulary as you like, filter as you like by level (including ranges like 12-18), SRS stage or whatever. (Radicals that are on WK as images remain blank on the front of the card, but the backs still have meanings, you can draw these radicals on the front and these cards won't mess things up otherwise.)
-
-(You could conceivably have both Reading by Type and Part of Speech as columns 5 and 6 but since one is used for getting the readings of kanji only and the other is used for selective printing of vocabulary items only, you probably won't need both together ever.)
 
 - **Usage examples**
   - `./makecards.sh myfile.csv` produces flashcards of all contents of the csv file. If you want kanji cards with katakana for on readings, you need column 5 set to Reading by Type (on kun). If this column is left blank all readings are printed in hiragana.
   - `./makecards.sh -p a4 myfile.csv` prints your cards on a4 paper size as `myfile-a4.pdf`.
   - `./makecards.sh -o verbs myfile.csv` prints cards of only godan and ichidan verbs, provided that you have column 5 set to Part of Speech, as `myfile-verbs.pdf`.
   - `./makecards.sh -o adjectives -p a4 myfile.csv` prints all adjectives from your file as `myfile-adjectives-a4.pdf` on a4 paper. You can also get only nouns with `-o nouns` -- you can't get BOTH nouns and adjectives though. One set at a time.
+  - Lately I have been experimenting with filtering by level number and that is possible within certain constraints. It is possible to start with a file called something like `vocab-1-25.csv` and then run `./makecards.sh -l 18 vocab-1-25.csv` to get only level 18 cards. This is likely of limited use, but was added to help me build individual level sets more easily out of larger csv files. 
 
 ## Bug reports and contributions
 

@@ -1,0 +1,19 @@
+\documentclass[letterpaper]{article}
+\usepackage[textwidth=19.8cm, textheight=25.9cm]{geometry}
+\usepackage{flashcards}
+\setCJKmainfont{ipag.ttf}
+\setCJKsansfont{ipag.ttf}
+\setlength{\columnsep}{0mm}
+%%%%%%%
+%%%%%% END PREAMBLE
+%%%%%%%
+\begin{document}%
+%
+\input{\jobname-front.tex}%
+%
+\pagebreak%
+%
+\input{\jobname-back.tex}%
+%
+\pagebreak%
+\end{document} 
