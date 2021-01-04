@@ -1,4 +1,6 @@
 #!/bin/bash
+# ./rebuild.sh "vocab" "21" "30"
+# ./rebuild.sh "kanji" "41" "50"
 TYPE=$1
 START=$2
 END=$3
@@ -15,6 +17,8 @@ if [ $TYPE = vocab ]; then
 	./makecards.sh -l $c $TYPE-$LEVELS.csv
     ./makecards.sh -l $c -p a4 $TYPE-$LEVELS.csv
  done
+    ./makecards.sh -o verbs $TYPE-$LEVELS.csv
+    ./makecards.sh -o verbs -p a4 $TYPE-$LEVELS.csv
 elif [ $TYPE = kanji ]; then
   cp csv/$TYPE-$LEVELS.csv .
  ./makecards.sh $TYPE-$LEVELS.csv

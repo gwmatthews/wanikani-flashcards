@@ -71,6 +71,26 @@ There is a lot of vocabulary to learn in studying a new language for the obvious
 - [vocabulary 19 a4 paper ](vocab-19-a4.pdf)
 - [vocabulary 20](vocab-20.pdf)
 - [vocabulary 20 a4 paper ](vocab-20-a4.pdf)
+- [vocabulary 21](vocab-21.pdf)
+- [vocabulary 21 a4 paper ](vocab-21-a4.pdf)
+- [vocabulary 22](vocab-22.pdf)
+- [vocabulary 22 a4 paper ](vocab-22-a4.pdf)
+- [vocabulary 23](vocab-23.pdf)
+- [vocabulary 23 a4 paper ](vocab-23-a4.pdf)
+- [vocabulary 24](vocab-24.pdf)
+- [vocabulary 24 a4 paper ](vocab-24-a4.pdf)
+- [vocabulary 25](vocab-25.pdf)
+- [vocabulary 25 a4 paper ](vocab-25-a4.pdf)
+- [vocabulary 26](vocab-26.pdf)
+- [vocabulary 26 a4 paper ](vocab-26-a4.pdf)
+- [vocabulary 27](vocab-27.pdf)
+- [vocabulary 27 a4 paper ](vocab-27-a4.pdf)
+- [vocabulary 28](vocab-28.pdf)
+- [vocabulary 28 a4 paper ](vocab-28-a4.pdf)
+- [vocabulary 29](vocab-29.pdf)
+- [vocabulary 29 a4 paper ](vocab-29-a4.pdf)
+- [vocabulary 30](vocab-30.pdf)
+- [vocabulary 30 a4 paper ](vocab-30-a4.pdf)
 
 ***
 
@@ -86,6 +106,10 @@ Another proof of concept -- to filter vocabulary by grammatical terms, in this c
 - [vocabulary 11-15 verbs a4 paper ](vocab-11-15-verbs-a4.pdf)
 - [vocabulary 16-20 verbs](vocab-16-20-verbs.pdf)
 - [vocabulary 16-20 verbs a4 paper ](vocab-16-20-verbs-a4.pdf)
+- [vocabulary 21-25 verbs](vocab-21-25-verbs.pdf)
+- [vocabulary 21-25 verbs a4 paper ](vocab-21-25-verbs-a4.pdf)
+- [vocabulary 26-30 verbs](vocab-26-30-verbs.pdf)
+- [vocabulary 26-30 verbs a4 paper ](vocab-26-30-verbs-a4.pdf)
 
 ***
 
